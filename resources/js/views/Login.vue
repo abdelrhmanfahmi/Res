@@ -4,6 +4,7 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-end">
@@ -15,10 +16,10 @@
                             <label>Mobile Number<span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
-                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+966</button>
-                                    <!-- <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">+966</a>
-                                    </div> -->
+                                    <vue-country-code
+                                        @onSelect="onSelect"
+                                        :preferredCountries="['sa', 'us', 'gb']">
+                                    </vue-country-code>
                                     <input type="tel" class="form-control" id="phone" placeholder="xxxxxxxxxxxxx" style="width:300px;">
                                 </div>
                             </div>
@@ -81,12 +82,23 @@
 </template>
 
 <script>
+import Vue from "vue";
+import VueCountryCode from "vue-country-code-select";
+
+Vue.use(VueCountryCode);
 export default {
     name:"Login",
+    data() {
+        return {
+        };
+    },
     methods:{
         SubmitForm:function(e){
             e.preventDefault();
-        }
+        },
+        onSelect({name, iso2, dialCode}) {
+            console.log(name, iso2, dialCode);
+        },
     }
 }
 </script>

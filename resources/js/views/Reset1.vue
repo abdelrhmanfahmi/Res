@@ -16,10 +16,10 @@
                             <label>Mobile Number<span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
-                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+966</button>
-                                    <!-- <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">+966</a>
-                                    </div> -->
+                                    <vue-country-code
+                                        @onSelect="onSelect"
+                                        :preferredCountries="['sa', 'us', 'gb']">
+                                    </vue-country-code>
                                     <input type="tel" class="form-control" id="phone" placeholder="xxxxxxxxxxxxx" style="width:300px;">
                                 </div>
                             </div>
@@ -70,12 +70,23 @@
 </template>
 
 <script>
+import Vue from "vue";
+import VueCountryCode from "vue-country-code-select";
+
+Vue.use(VueCountryCode);
 export default {
     name:"Reset1",
+    data() {
+        return {
+        };
+    },
     methods:{
         SubmitForm:function(e){
             e.preventDefault();
-        }
+        },
+        onSelect({name, iso2, dialCode}) {
+            console.log(name, iso2, dialCode);
+        },
     }
 }
 </script>
