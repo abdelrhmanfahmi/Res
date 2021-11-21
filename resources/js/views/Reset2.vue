@@ -1,5 +1,5 @@
 <template>
-    <div class="login">
+    <div class="reset2 pb-5">
         <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
@@ -31,8 +31,8 @@
                         <br>
                         <br>
                         <div class="pb-3">
-                            <p>Did you recieve a message? <a href="javascript:void(0);" style="color:green;">Resend Code</a></p>
-                            <button type="submit" class="btn btn-success w-100 btn-lg" @click="SubmitForm" style="border-radius:10px;">CONFIRM</button>
+                            <p>Did you recieve a message? <a href="javascript:void(0);" style="color:#20926B;">Resend Code</a></p>
+                            <button type="submit" class="btn btn-success w-100 btn-lg" @click="SubmitForm" style="border-radius:10px;background-color:#20926B;">CONFIRM</button>
                         </div>
                     </form>
                 </div>
@@ -44,7 +44,7 @@
                         <div class="col-md-6 p-2 bd-highlight">
                             <div class="vl"></div>
                         </div>
-                        <div class="col-md-6 mt-auto p-2 bd-highlight">
+                        <div class="col-md-6 mt-auto p-2 bd-highlight fahmyCode">
                             <div class="social-links">
                                 <ul class="list-unstyled">
                                     <li class="mx-3 mb-4">
@@ -79,6 +79,7 @@ export default {
     methods:{
         SubmitForm:function(e){
             e.preventDefault();
+            this.$router.push({ name: "Reset3"});
         },
        autotab(current,to){
             if (current.getAttribute &&
@@ -100,23 +101,23 @@ $(window).on('load' , function(){
     top: 20px;
 }
 .linkedin{
-    border: 1px solid #007bff;
+    border: 1px solid #0A66C2;
     border-radius: 25px;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #0A66C2;
 }
 .twitter{
-    border: 1px solid blue;
+    border: 1px solid #1DA1F2;
     border-radius: 25px;
     padding: 10px;
-    background-color:blue;
+    background-color:#1DA1F2;
 
 }
 .instagram{
-    border: 1px solid pink;
+    border: 1px solid #833AB4;
     border-radius: 25px;
     padding: 10px;
-    background-color:pink;
+    background-color:#833AB4;
 }
 
 .vl{
@@ -140,6 +141,9 @@ $(window).on('load' , function(){
 @media screen and (min-width:768px) and (max-width:1000px) {
     .imageCss{
         width:300px !important;
+    }
+    .fahmyCode{
+        width:30px;
     }
 }
 

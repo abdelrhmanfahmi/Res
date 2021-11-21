@@ -1,6 +1,6 @@
 <template>
-    <div class="login">
-        <link rel="stylesheet" 
+    <div class="login pb-5">
+        <link rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
@@ -28,12 +28,14 @@
                             <label>Password<span style="color:red;">*</span></label>
                             <input type="password" class="form-control" id="password" placeholder="******************">
                             <div class="pt-2">
-                                <a href="javascript:void(0);" style="color:green;">Forget Your Password?</a>
+                                <router-link :to="'/reset/step1'">
+                                    <a href="javascript:void(0);" style="color:#20926B;">Forget Your Password?</a>
+                                </router-link>
                             </div>
                         </div>
                         
                         <br>
-                        <button type="submit" class="btn btn-success w-100 btn-lg" @click="SubmitForm" style="border-radius:10px;">SIGN IN</button>
+                        <button type="submit" class="btn btn-success w-100 btn-lg" @click="SubmitForm" style="border-radius:10px;background-color:#20926B;">SIGN IN</button>
                         <br>
                         <br>
                         <br>
@@ -41,7 +43,11 @@
                         <br>
                         <br>
                         <div class="text-center pb-3">
-                            <p>Don't Already Have An account? <a href="javascript:void(0);" style="color:green;">Create account</a></p>
+                            <p>Don't Already Have An account? 
+                                <router-link :to="'/register'">
+                                    <a href="javascript:void(0);" style="color:#20926B;">Create account</a>
+                                </router-link>
+                            </p>
                         </div>
                     </form>
                 </div>
@@ -53,7 +59,7 @@
                         <div class="col-md-6 p-2 bd-highlight">
                             <div class="vl"></div>
                         </div>
-                        <div class="col-md-6 mt-auto p-2 bd-highlight">
+                        <div class="col-md-6 mt-auto p-2 bd-highlight fahmyCode">
                             <div class="social-links">
                                 <ul class="list-unstyled">
                                     <li class="mx-3 mb-4">
@@ -110,23 +116,23 @@ export default {
     top: 20px;
 }
 .linkedin{
-    border: 1px solid #007bff;
+    border: 1px solid #0A66C2;
     border-radius: 25px;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #0A66C2;
 }
 .twitter{
-    border: 1px solid blue;
+    border: 1px solid #1DA1F2;
     border-radius: 25px;
     padding: 10px;
-    background-color:blue;
+    background-color:#1DA1F2;
 
 }
 .instagram{
-    border: 1px solid pink;
+    border: 1px solid #833AB4;
     border-radius: 25px;
     padding: 10px;
-    background-color:pink;
+    background-color:#833AB4;
 }
 
 .vl{
@@ -156,6 +162,9 @@ export default {
     }
     #phone{
         width:264px !important;
+    }
+    .fahmyCode{
+        width:30px;
     }
 }
 
