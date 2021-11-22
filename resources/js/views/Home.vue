@@ -14,10 +14,10 @@
                             property of your favorite area
                         </p>
                         <br>
-                        <button class="btn btnForHeadeUp" @click="GoToLogin">
+                        <button class="btn btnForHeadeUp" @click="GoToRegister">
                             <span style="color:#fff;font-size:18px;">SIGN UP</span>
                         </button>
-                        <button class="btn btnForHeaderIn" @click="GoToRegister">
+                        <button class="btn btnForHeaderIn" @click="GoToLogin">
                             <span style="color:#fff;font-size:18px;">SIGN IN</span>
                         </button>
                     </div>
@@ -43,9 +43,24 @@
                 <div class="row pt-2">
                     <carousel :per-page-custom="[[320, 1], [360, 1], [375, 1], [393, 1], [411, 1], [412, 1], [414, 1], [768, 2], [1024, 3], [1350, 4]]" :mouse-drag="true">
                         <slide>
-                            <div class="col-md-12">
+                            <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
                                     <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
@@ -90,9 +105,24 @@
                             </div>
                         </slide>
                         <slide>
-                            <div class="col-md-12">
+                            <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
                                     <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
@@ -137,9 +167,24 @@
                             </div>
                         </slide>
                         <slide>
-                            <div class="col-md-12">
+                            <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
                                     <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
@@ -184,9 +229,24 @@
                             </div>
                         </slide>
                         <slide>
-                            <div class="col-md-12">
+                            <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
                                     <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
@@ -231,9 +291,24 @@
                             </div>
                         </slide>
                         <slide>
-                            <div class="col-md-12">
+                            <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
                                     <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
@@ -278,9 +353,24 @@
                             </div>
                         </slide>
                         <slide>
-                            <div class="col-md-12">
+                            <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
                                     <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
@@ -372,50 +462,50 @@
                 </div>
                 <div class="row pt-5">
                     <div class="col-md-2">
-                        <div class="card" style="box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background: #FFFFFF 0% 0% no-repeat padding-box;">
-                            <div class="card-body text-center p-3">
+                        <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
+                            <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
                                 <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
-                                <p class="pt-3">Without Experience</p>
+                                <div class="card-text pb-2 pt-4" style="font-size:14px;">Without Experience</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="card" style="box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background: #FFFFFF 0% 0% no-repeat padding-box;">
-                            <div class="card-body text-center p-3">
+                        <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
+                            <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
                                 <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
-                                <p class="pt-3">Without Experience</p>
+                                <div class="card-text pb-2 pt-4" style="font-size:14px;">Without Experience</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="card" style="box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background: #FFFFFF 0% 0% no-repeat padding-box;">
-                            <div class="card-body text-center p-3">
+                        <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
+                            <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
                                 <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
-                                <p class="pt-3">Reasonable Prices</p>
+                                <div class="card-text pb-2 pt-4" style="font-size:14px;">Reasonable Prices</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="card" style="box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background: #FFFFFF 0% 0% no-repeat padding-box;">
-                            <div class="card-body text-center p-3">
+                        <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
+                            <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
                                 <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
-                                <p class="pt-3">Faster</p>
+                                <div class="card-text pb-2 pt-4" style="font-size:14px;">Faster</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="card" style="box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background: #FFFFFF 0% 0% no-repeat padding-box;">
-                            <div class="card-body text-center p-3">
+                        <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
+                            <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
                                 <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
-                                <p class="pt-3">Much Easier</p>
+                                <div class="card-text pb-2 pt-4" style="font-size:14px;">Much Easier</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="card" style="box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background: #FFFFFF 0% 0% no-repeat padding-box;">
-                            <div class="card-body text-center p-3">
+                        <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
+                            <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
                                 <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
-                                <p class="pt-3">Reasonable Prices</p>
+                                <div class="card-text pb-2 pt-4" style="font-size:14px;">Reasonable Prices</div>
                             </div>
                         </div>
                     </div>
@@ -483,6 +573,34 @@ export default {
 </script>
 
 <style scoped>
+    .widthInMobileBig{
+        width:300px;
+    }
+    .heartOverlay{
+        color:#4D4D4D;
+        position: relative;
+        right:5px;
+    }
+    .imageOvelayRow{
+        position:relative;
+        top:-5px;
+    }
+    .inWidthMobile{
+        position:relative;
+        right:-20px;
+    }
+    .imageOverlayCarousel{
+        border: 1px solid #4D4D4D;
+        background-color: #4D4D4D;
+        opacity: 0.5;
+        border-radius: 17px;
+        padding: 2px;
+        position: relative;
+        top: -3px;
+        right: -90px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
     .chevronStyle{
         border: 1px solid #20926B;
         background-color: #20926B;
@@ -555,7 +673,7 @@ export default {
         width: 97%;
         height: 97%;
         background: none;
-        border-width: 2px;
+        border-width: 4px;
         border-style: solid;
         position: absolute;
         top: 0
@@ -710,6 +828,10 @@ export default {
             position:relative;
             right:-90px;
         }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-160px;
+        }
     }
 
     @media only screen and (width : 1024px){
@@ -723,15 +845,23 @@ export default {
         .inWidthMobileClock{
             position:relative;
         }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-100px;
+        }
     }
 
     @media screen and (min-width:768px) and (max-width:1000px) {
+        .imageOverlayCarousel{
+            position:relative;
+            right:-140px;
+        }
         .VueCarousel{
             width:740px;
         }
         .inWidthMobile{
             position:relative;
-            right:-90px;
+            right:-70px;
         }
         .inWidthMobileClosed{
             padding-top: 0rem !important;
@@ -756,7 +886,7 @@ export default {
         }
         .inWidthMobile{
             position:relative;
-            right:-80px;
+            right:-60px;
         }
         .inWidthMobileClosed{
             padding-top: 0rem !important;
@@ -767,44 +897,71 @@ export default {
         .clockLeft{
             padding:5px;
         }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-130px;
+        }
     }
     @media only screen and (width:414px){
         .inWidthMobile{
             position:relative;
-            right:-80px;
+            right:-60px;
+        }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-130px;
         }
     }
     @media only screen and (width:412px){
         .inWidthMobile{
             position:relative;
-            right:-80px;
+            right:-60px;
+        }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-130px;
         }
     }
     @media only screen and (width:411px){
         .inWidthMobile{
             position:relative;
-            right:-80px;
+            right:-60px;
+        }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-130px;
         }
     }
     @media only screen and (width:393px){
         .inWidthMobile{
             position:relative;
-            right:-80px;
+            right:-60px;
         }
     }
     @media only screen and (width:360px){
         .inWidthMobile{
             position:relative;
-            right:-50px;
+            right:-20px;
         }
         .VueCarousel{
             width:330px;
         }
+        .imageOverlayCarousel{
+            position:relative;
+            right:-90px;
+        }
     }
     @media only screen and (width:320px){
+        .imageOverlayCarousel{
+            position:relative;
+            right:-80px;
+        }
         .inWidthMobile{
             position:relative;
             right:-10px;
+        }
+        .widthInMobileBig{
+            width:291px;
         }
         .VueCarousel{
             width:300px;

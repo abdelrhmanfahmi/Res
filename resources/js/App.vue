@@ -4,6 +4,7 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color:#fff !important;">
             <router-link :to="'/'">
                 <a class="navbar-brand" href="javascript:void(0);">
@@ -65,12 +66,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0);">
-                            <i class="fa fa-heart rounded-circle"></i>
+                            <i class="fa fa-heart rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0);">
-                            <i class="fa fa-bell rounded-circle"></i>
+                            <i class="fa fa-bell rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
