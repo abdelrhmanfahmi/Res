@@ -988,6 +988,27 @@ export default {
 }
 
 $(document).ready(function(){
+    $(window).on('load' , function(){
+        if($(window).width() == 1024){
+            $('.ChangeCols').removeClass('col-md-3 col-md-6');
+            $('.ChangeCols').addClass('col-md-4');
+        }
+
+        if($(window).width() == 768){
+            $('.ChangeCols').removeClass('col-md-4 col-md-3');
+            $('.ChangeCols').addClass('col-md-6');
+        }
+
+        if($(window).width() > 1090 || $(window).width() < 1340){
+            $('.ChangeCols').removeClass('col-md-3 col-md-6');
+            $('.ChangeCols').addClass('col-md-4');
+        }
+
+        if($(window).width() > 1340){
+            $('.ChangeCols').removeClass('col-md-4 col-md-6');
+            $('.ChangeCols').addClass('col-md-3');
+        }
+    });
     $(window).on('resize' , function(){
         if($(window).width() == 1024){
             $('.ChangeCols').removeClass('col-md-3 col-md-6');
@@ -997,6 +1018,11 @@ $(document).ready(function(){
         if($(window).width() == 768){
             $('.ChangeCols').removeClass('col-md-4 col-md-3');
             $('.ChangeCols').addClass('col-md-6');
+        }
+
+        if($(window).width() > 1090 || $(window).width() < 1340){
+            $('.ChangeCols').removeClass('col-md-3 col-md-6');
+            $('.ChangeCols').addClass('col-md-4');
         }
 
         if($(window).width() > 1340){

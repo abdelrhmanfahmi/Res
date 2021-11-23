@@ -65,14 +65,18 @@
                         <a class="nav-link" href="javascript:void(0);">|</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">
-                            <i class="fa fa-heart rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
-                        </a>
+                        <router-link :to="'/favourite'" class="nav-item" exact>
+                            <a class="nav-link" href="javascript:void(0);">
+                                <i class="fa fa-heart rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
+                            </a>
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">
-                            <i class="fa fa-bell rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
-                        </a>
+                        <router-link :to="'/notifications'" class="nav-item" exact>
+                            <a class="nav-link" href="javascript:void(0);">
+                                <i class="fa fa-bell rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
+                            </a>
+                        </router-link>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown33" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -85,9 +89,15 @@
                             <router-link :to="'/favourite'">
                                 <a class="dropdown-item" href="javascript:void(0);">Favourite</a>
                             </router-link>
-                            <a class="dropdown-item" href="javascript:void(0);">Support</a>
-                            <a class="dropdown-item" href="javascript:void(0);">Settings</a>
-                            <a class="dropdown-item" href="javascript:void(0);">Sign Out</a>
+                            <router-link :to="'/support'">
+                                <a class="dropdown-item" href="javascript:void(0);">Support</a>
+                            </router-link>
+                            <router-link :to="'/setting'">
+                                <a class="dropdown-item" href="javascript:void(0);">Settings</a>
+                            </router-link>
+                            <router-link :to="'/'">
+                                <a class="dropdown-item" href="javascript:void(0);">Sign Out</a>
+                            </router-link>
                         </div>
                     </li>
                 </ul>

@@ -17,6 +17,9 @@ import About from "./views/About.vue";
 import Profile from "./views/Profile.vue";
 import Favourite from "./views/Favourite.vue";
 import Features from "./views/Features.vue";
+import Notification from "./views/Notification.vue";
+import Support from "./views/Support.vue";
+import Setting from "./views/Setting.vue";
 
 Vue.use(Router);
 
@@ -100,6 +103,21 @@ const routes = [
         name:"Favourite",
         path:"/favourite",
         component:Favourite
+    },
+    {
+        name:"Notification",
+        path:"/notifications",
+        component:Notification
+    },
+    {
+        name:"Support",
+        path:"/support",
+        component:Support
+    },
+    {
+        name:"Setting",
+        path:"/setting",
+        component:Setting
     }
 ];
 

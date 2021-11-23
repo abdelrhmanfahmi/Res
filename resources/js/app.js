@@ -15,6 +15,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
+import VueSidebarMenu from 'vue-sidebar-menu'
+
+Vue.use(VueSidebarMenu)
+
 
 const app = new Vue({
     el: '#app',
