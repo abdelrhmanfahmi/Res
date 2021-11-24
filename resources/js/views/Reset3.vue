@@ -1,5 +1,5 @@
 <template>
-    <div class="reset pb-5">
+    <div class="reset">
         <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
@@ -64,6 +64,7 @@
 </template>
 
 <script>
+import $ from "jquery";
 export default {
     name:"Reset3",
     methods:{
@@ -73,6 +74,10 @@ export default {
         }
     }
 }
+
+$(document).ready(function(){
+    
+});
 </script>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <template>
-    <div class="reset2 pb-5">
+    <div class="reset2">
         <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
@@ -89,6 +89,10 @@ export default {
         }
     }
 }
+$(document).ready(function(){
+    
+});
+
 $(window).on('load' , function(){
     $('.sms1').focus();
 });

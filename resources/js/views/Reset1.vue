@@ -1,5 +1,5 @@
 <template>
-    <div class="reset1 pb-5">
+    <div class="reset1">
         <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
@@ -74,6 +74,7 @@ import Vue from "vue";
 import VueCountryCode from "vue-country-code-select";
 
 Vue.use(VueCountryCode);
+import $ from "jquery";
 export default {
     name:"Reset1",
     data() {
@@ -90,6 +91,10 @@ export default {
         },
     }
 }
+
+$(document).ready(function(){
+    
+});
 </script>
 
 <style scoped>

@@ -1,7 +1,16 @@
 <template>
     <div class="faq pt-5">
+        <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <div class="pb-5">
             <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <div class="d-flex justify-content-center">
+                <input type="text" id="search" name="search" class="form-control" placeholder="">
+            </div>
         </div>
         <div class="container">
             <div class="row pt-5">
@@ -90,12 +99,21 @@
 </template>
 
 <script>
+import $ from "jquery";
 export default {
     name:"FAQ",
 }
+
+$(document).ready(function(){
+    $('#search').attr("placeholder", $.parseHTML("&#61442; Search the help center")[0].data);
+});
 </script>
 
 <style scoped>
+    /* #search::-webkit-input-placeholder {
+        font-size: 25px;
+        line-height: 3;
+    } */
     .imageHeader{
         object-fit:cover;
         background-size: cover;
@@ -104,8 +122,57 @@ export default {
         height:502px;
         width:100%;
     }
-    .searchBar{
-        position: relative;
-        top:120px;
+    #search{
+        position: absolute;
+        font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+        top:517px;
+        height:65px;
+        width:40%;
+        border-radius:40px;
+        border-color:#ddd;
+    }
+    input#search::-webkit-input-placeholder {
+        font-family:'FontAwesome';
+    }
+    input#search::-moz-placeholder {
+        font-family:'FontAwesome';
+    }
+    input#search::-ms-input-placeholder {
+        font-family:'FontAwesome';
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1340px){
+        
+    }
+
+    @media only screen and (width : 1024px){
+        
+    }
+
+    @media screen and (min-width:768px) and (max-width:1000px) {
+         
+    }
+
+    @media (max-width: 500px){
+       #search{
+           width:60%;
+       }
+    }
+    @media only screen and (width:414px){
+       
+    }
+    @media only screen and (width:412px){
+        
+    }
+    @media only screen and (width:411px){
+        
+    }
+    @media only screen and (width:393px){
+         
+    }
+    @media only screen and (width:360px){
+
+    }
+    @media only screen and (width:320px){
+         
     }
 </style>

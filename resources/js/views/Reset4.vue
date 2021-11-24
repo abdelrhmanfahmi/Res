@@ -1,5 +1,5 @@
 <template>
-    <div class="reset4 pb-5">
+    <div class="reset4">
         <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
@@ -58,8 +58,9 @@
 </template>
 
 <script>
+import $ from "jquery";
 export default {
-    name:"Reset3",
+    name:"Reset4",
     methods:{
         SubmitForm:function(e){
             e.preventDefault();
@@ -67,6 +68,10 @@ export default {
         }
     }
 }
+
+$(document).ready(function(){
+    
+});
 </script>
 
 <style scoped>

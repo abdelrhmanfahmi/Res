@@ -20,6 +20,9 @@ import Features from "./views/Features.vue";
 import Notification from "./views/Notification.vue";
 import Support from "./views/Support.vue";
 import Setting from "./views/Setting.vue";
+import Documents from "./views/Documents.vue";
+import Referral from "./views/Referral.vue";
+import Wallet from "./views/Wallet.vue";
 
 Vue.use(Router);
 
@@ -118,6 +121,21 @@ const routes = [
         name:"Setting",
         path:"/setting",
         component:Setting
+    },
+    {
+        name:"Documents",
+        path:"/documents",
+        component:Documents
+    },
+    {
+        name:"Referral",
+        path:"/referral",
+        component:Referral
+    },
+    {
+        name:"Wallet",
+        path:"/wallet",
+        component:Wallet
     }
 ];
 

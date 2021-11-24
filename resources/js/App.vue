@@ -5,7 +5,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color:#fff !important;">
+        <nav v-if="!['Login', 'Register', 'Reset1' , 'Reset2' , 'Reset3' , 'Reset4' ,].includes($route.name)" class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color:#fff !important;">
             <router-link :to="'/'">
                 <a class="navbar-brand" href="javascript:void(0);">
                     <img :src="'assets/images/Logo.png'" width="140px" height="50px" alt="">
@@ -106,7 +106,7 @@
 
         <router-view></router-view>
 
-        <footer class="page-footer font-small pt-4" style="background-color:#4D4D4D !important;">
+        <footer v-if="!['Login', 'Register', 'Reset1' , 'Reset2' , 'Reset3' , 'Reset4' ,].includes($route.name)" class="page-footer font-small pt-4" style="background-color:#4D4D4D !important;">
             <div class="container-fluid text-center text-md-left p-4">
                 <div class="row">
                     <div class="col-md-12 text-center pb-5">
@@ -208,6 +208,7 @@
 </template>
 
 <script>
+import $ from "jquery";
 export default {
     name:"App",
     methods:{

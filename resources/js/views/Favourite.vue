@@ -8,29 +8,43 @@
             <div id="sidebar-wrapper">
                 <i class="fa fa-times changeCloseIcon" @click="closeSidebar"></i>
                 <ul class="sidebar-nav">
-                    <li class="active">
-                        <a href="javascript:void(0);"> <i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;  Favourite</a>
+                    <li>
+                        <router-link :to="'/favourite'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;  Favourite</a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"> <i class="fa fa-wallet"></i> &nbsp;&nbsp;&nbsp;  Wallet</a>
+                        <router-link :to="'/wallet'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-wallet"></i> &nbsp;&nbsp;&nbsp;  Wallet</a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"> <i class="fa fa-file"></i> &nbsp;&nbsp;&nbsp;  Documents</a>
+                        <router-link :to="'/documents'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-file"></i> &nbsp;&nbsp;&nbsp;  Documents</a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"> <i class="fa fa-user"></i> &nbsp;&nbsp;&nbsp;  Referral</a>
+                        <router-link :to="'/referral'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-user"></i> &nbsp;&nbsp;&nbsp;  Referral</a>
+                        </router-link>
                     </li>
                     <li>
                         <a href="javascript:void(0);"> <span style="color:#888383;margin-left:20px;">help</span> </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"> <i class="fa fa-cog"></i> &nbsp;&nbsp;&nbsp;  Settings</a>
+                        <router-link :to="'/setting'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-cog"></i> &nbsp;&nbsp;&nbsp;  Settings</a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"> <i class="fa fa-comment"></i> &nbsp;&nbsp;&nbsp;  Support</a>
+                        <router-link :to="'/support'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-comment"></i> &nbsp;&nbsp;&nbsp;  Support</a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"> <i class="fa fa-sign-out-alt"></i> &nbsp;&nbsp;&nbsp;  Log Out</a>
+                        <router-link :to="'/'" class="nav-item" exact>
+                            <a href="javascript:void(0);"> <i class="fa fa-sign-out-alt"></i> &nbsp;&nbsp;&nbsp;  Log Out</a>
+                        </router-link>
                     </li>
                 </ul>
             </div>
@@ -539,7 +553,7 @@ export default {
     methods:{
         closeSidebar:function(e){
             e.preventDefault();
-            $('.openSidebar').css('display' , 'block');
+            $('.openSidebar').css('display' , 'initial');
             $("#wrapper").toggleClass("toggled");
         },
         openSidebar:function(e){
@@ -595,14 +609,14 @@ $(document).ready(function(){
     .openSidebar{
         position:relative;
         right:0px;
-        top:28px;
+        top:30px;
         display:none;
         cursor:pointer;
     }
     .changeCloseIcon{
         position:relative;
-        right:-180px;
-        top:-5px;
+        right:-210px;
+        top:-3px;
         cursor:pointer;
     }
     #wrapper {
@@ -710,7 +724,7 @@ $(document).ready(function(){
     }
 
     #sidebar-wrapper {
-        width: 200px;
+        width: 230px;
     }
 
     #wrapper.toggled #sidebar-wrapper {
