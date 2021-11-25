@@ -10,22 +10,22 @@
                 <ul class="sidebar-nav">
                     <li>
                         <router-link :to="'/favourite'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;  Favourite</a>
+                            <a href="javascript:void(0);" id="firstLI"> <i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;  Favourite</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/wallet'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-wallet"></i> &nbsp;&nbsp;&nbsp;  Wallet</a>
+                            <a href="javascript:void(0);" id="secondLI"> <i class="fa fa-wallet"></i> &nbsp;&nbsp;&nbsp;  Wallet</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/documents'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-file"></i> &nbsp;&nbsp;&nbsp;  Documents</a>
+                            <a href="javascript:void(0);" id="thirdLI"> <i class="fa fa-file"></i> &nbsp;&nbsp;&nbsp;  Documents</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/referral'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-user"></i> &nbsp;&nbsp;&nbsp;  Referral</a>
+                            <a href="javascript:void(0);" id="fourthLI"> <i class="fa fa-user"></i> &nbsp;&nbsp;&nbsp;  Referral</a>
                         </router-link>
                     </li>
                     <li>
@@ -33,17 +33,17 @@
                     </li>
                     <li>
                         <router-link :to="'/setting'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-cog"></i> &nbsp;&nbsp;&nbsp;  Settings</a>
+                            <a href="javascript:void(0);" id="fifthLI"> <i class="fa fa-cog"></i> &nbsp;&nbsp;&nbsp;  Settings</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/support'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-comment"></i> &nbsp;&nbsp;&nbsp;  Support</a>
+                            <a href="javascript:void(0);" id="sixthLI"> <i class="fa fa-comment"></i> &nbsp;&nbsp;&nbsp;  Support</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/'" class="nav-item" exact>
-                            <a href="javascript:void(0);"> <i class="fa fa-sign-out-alt"></i> &nbsp;&nbsp;&nbsp;  Log Out</a>
+                            <a href="javascript:void(0);" id="sevenLI"> <i class="fa fa-sign-out-alt"></i> &nbsp;&nbsp;&nbsp;  Log Out</a>
                         </router-link>
                     </li>
                 </ul>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -177,7 +177,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -299,7 +299,7 @@
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -359,7 +359,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -419,7 +419,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -479,7 +479,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ChangeCols mb-3 fahmico">
+                        <div class="col-md-3 ChangeCols mb-3 zzzz">
                             <div class="card ChangeCols2" style="box-shadow: 0px 3px 8px #EDEDED;">
                                 <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
                                 <div class="card-img-overlay card-inverse">
@@ -550,6 +550,61 @@
 import $ from "jquery";
 export default {
     name:"Favourite",
+    mounted(){
+        var namePage = document.URL.split("/")[4];
+        console.log(namePage);
+        if(namePage == "favourite"){
+            $('#firstLI').addClass('activeNow');
+            $('#secondLI').removeClass('activeNow');
+            $('#thirdLI').removeClass('activeNow');
+            $('#fourthLI').removeClass('activeNow');
+            $('#fifthLI').removeClass('activeNow');
+            $('#sixthLI').removeClass('activeNow');
+            $('#sevenLI').removeClass('activeNow');
+        }else if(namePage == "wallet"){
+            $('#firstLI').removeClass('activeNow');
+            $('#secondLI').addClass('activeNow');
+            $('#thirdLI').removeClass('activeNow');
+            $('#fourthLI').removeClass('activeNow');
+            $('#fifthLI').removeClass('activeNow');
+            $('#sixthLI').removeClass('activeNow');
+            $('#sevenLI').removeClass('activeNow');
+        }else if(namePage == "documents"){
+            $('#firstLI').removeClass('activeNow');
+            $('#secondLI').removeClass('activeNow');
+            $('#thirdLI').addClass('activeNow');
+            $('#fourthLI').removeClass('activeNow');
+            $('#fifthLI').removeClass('activeNow');
+            $('#sixthLI').removeClass('activeNow');
+            $('#sevenLI').removeClass('activeNow');
+        }else if(namePage == "referral"){
+            $('#firstLI').removeClass('activeNow');
+            $('#secondLI').removeClass('activeNow');
+            $('#thirdLI').removeClass('activeNow');
+            $('#fourthLI').addClass('activeNow');
+            $('#fifthLI').removeClass('activeNow');
+            $('#sixthLI').removeClass('activeNow');
+            $('#sevenLI').removeClass('activeNow');
+        }else if(namePage == "setting"){
+            $('#firstLI').removeClass('activeNow');
+            $('#secondLI').removeClass('activeNow');
+            $('#thirdLI').removeClass('activeNow');
+            $('#fourthLI').removeClass('activeNow');
+            $('#fifthLI').addClass('activeNow');
+            $('#sixthLI').removeClass('activeNow');
+            $('#sevenLI').removeClass('activeNow');
+        }else if(namePage == "support"){
+            $('#firstLI').removeClass('activeNow');
+            $('#secondLI').removeClass('activeNow');
+            $('#thirdLI').removeClass('activeNow');
+            $('#fourthLI').removeClass('activeNow');
+            $('#fifthLI').removeClass('activeNow');
+            $('#sixthLI').addClass('activeNow');
+            $('#sevenLI').removeClass('activeNow');
+        }else{
+            console.log('none');
+        }
+    },
     methods:{
         closeSidebar:function(e){
             e.preventDefault();
@@ -568,44 +623,103 @@ export default {
 $(document).ready(function(){
 
     if($(window).width() == 1024){
-        $('.fahmico').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
-        $('.fahmico').addClass('col-md-4');
+        $('.zzzz').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
+        $('.zzzz').addClass('col-md-4');
     }
     if($(window).width() == 768){
-        $('.fahmico').removeClass('col-md-3 col-md-4 col-md-6 ChangeCols');
-        $('.fahmico').addClass('col-md-6');
+        $('.zzzz').removeClass('col-md-3 col-md-4 col-md-6 ChangeCols');
+        $('.zzzz').addClass('col-md-6');
     }
     if($(window).width() > 1090){
-        $('.fahmico').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
-        $('.fahmico').addClass('col-md-4');
+        $('.zzzz').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
+        $('.zzzz').addClass('col-md-4');
     }
     if($(window).width() > 1340){
-        $('.fahmico').removeClass('col-md-4 col-md-6 col-md-3 ChangeCols');
-        $('.fahmico').addClass('col-md-3');
+        $('.zzzz').removeClass('col-md-4 col-md-6 col-md-3 ChangeCols');
+        $('.zzzz').addClass('col-md-3');
+    }
+
+    var namePage = document.URL.split("/")[4];
+    console.log(namePage);
+    if(namePage == "favourite"){
+        $('#firstLI').addClass('activeNow');
+        $('#secondLI').removeClass('activeNow');
+        $('#thirdLI').removeClass('activeNow');
+        $('#fourthLI').removeClass('activeNow');
+        $('#fifthLI').removeClass('activeNow');
+        $('#sixthLI').removeClass('activeNow');
+        $('#sevenLI').removeClass('activeNow');
+    }else if(namePage == "wallet"){
+        $('#firstLI').removeClass('activeNow');
+        $('#secondLI').addClass('activeNow');
+        $('#thirdLI').removeClass('activeNow');
+        $('#fourthLI').removeClass('activeNow');
+        $('#fifthLI').removeClass('activeNow');
+        $('#sixthLI').removeClass('activeNow');
+        $('#sevenLI').removeClass('activeNow');
+    }else if(namePage == "documents"){
+        $('#firstLI').removeClass('activeNow');
+        $('#secondLI').removeClass('activeNow');
+        $('#thirdLI').addClass('activeNow');
+        $('#fourthLI').removeClass('activeNow');
+        $('#fifthLI').removeClass('activeNow');
+        $('#sixthLI').removeClass('activeNow');
+        $('#sevenLI').removeClass('activeNow');
+    }else if(namePage == "referral"){
+        $('#firstLI').removeClass('activeNow');
+        $('#secondLI').removeClass('activeNow');
+        $('#thirdLI').removeClass('activeNow');
+        $('#fourthLI').addClass('activeNow');
+        $('#fifthLI').removeClass('activeNow');
+        $('#sixthLI').removeClass('activeNow');
+        $('#sevenLI').removeClass('activeNow');
+    }else if(namePage == "setting"){
+        $('#firstLI').removeClass('activeNow');
+        $('#secondLI').removeClass('activeNow');
+        $('#thirdLI').removeClass('activeNow');
+        $('#fourthLI').removeClass('activeNow');
+        $('#fifthLI').addClass('activeNow');
+        $('#sixthLI').removeClass('activeNow');
+        $('#sevenLI').removeClass('activeNow');
+    }else if(namePage == "support"){
+        $('#firstLI').removeClass('activeNow');
+        $('#secondLI').removeClass('activeNow');
+        $('#thirdLI').removeClass('activeNow');
+        $('#fourthLI').removeClass('activeNow');
+        $('#fifthLI').removeClass('activeNow');
+        $('#sixthLI').addClass('activeNow');
+        $('#sevenLI').removeClass('activeNow');
+    }else{
+        console.log('none');
     }
 
     $(window).on('resize' , function(){
         if($(window).width() == 1024){
-            $('.fahmico').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
-            $('.fahmico').addClass('col-md-4');
+            $('.zzzz').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
+            $('.zzzz').addClass('col-md-4');
         }
         if($(window).width() == 768){
-            $('.fahmico').removeClass('col-md-3 col-md-4 col-md-6 ChangeCols');
-            $('.fahmico').addClass('col-md-6');
+            $('.zzzz').removeClass('col-md-3 col-md-4 col-md-6 ChangeCols');
+            $('.zzzz').addClass('col-md-6');
         }
         if($(window).width() > 1090){
-            $('.fahmico').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
-            $('.fahmico').addClass('col-md-4');
+            $('.zzzz').removeClass('col-md-3 col-md-6 col-md-4 ChangeCols');
+            $('.zzzz').addClass('col-md-4');
         }
         if($(window).width() > 1340){
-            $('.fahmico').removeClass('col-md-4 col-md-6 col-md-3 ChangeCols');
-            $('.fahmico').addClass('col-md-3');
+            $('.zzzz').removeClass('col-md-4 col-md-6 col-md-3 ChangeCols');
+            $('.zzzz').addClass('col-md-3');
         }
     });
 });
 </script>
 
 <style scoped>
+    .sidebar-nav li a.activeNow{
+        color: #20966B;
+        border-left: 3px solid #20966B;
+        background-color: #F1F1F1;
+    }
     .openSidebar{
         position:relative;
         right:0px;
@@ -675,27 +789,27 @@ $(document).ready(function(){
     .sidebar-nav li {
         text-indent: 20px;
         line-height: 57px;
-        width:170px;
+        width:200px;
     }
 
     .sidebar-nav li a {
         display: block;
         text-decoration: none;
         color: #000;
-        width:170px;
+        width:200px;
     }
 
     .sidebar-nav li a:hover {
         text-decoration: none;
         color: #20926B;
-        background: rgba(255,255,255,0.2);
-        border-left:4px solid #20926B;
+        background-color: #F1F1F1;
+        border-left:3px solid #20926B;
     }
 
     .sidebar-nav li a:active,
     .sidebar-nav li a:focus {
         text-decoration: none;
-        border-left:4px solid #20926B;
+        border-left:3px solid #20926B;
     }
 
     .sidebar-nav > .sidebar-brand {

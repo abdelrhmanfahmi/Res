@@ -37,16 +37,16 @@
                             Learn
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <router-link :to="'/faq'">
+                            <router-link :to="'/faq'" exact>
                                 <a class="dropdown-item" href="javascript:void(0);">FAQS</a>
                             </router-link>
-                            <router-link :to="'/terms'">
+                            <router-link :to="'/terms'" exact>
                                 <a class="dropdown-item" href="javascript:void(0);">Terms And Condition</a>
                             </router-link>
-                            <router-link :to="'/privacy'">
+                            <router-link :to="'/privacy'" exact>
                                 <a class="dropdown-item" href="javascript:void(0);">Privacy Policy</a>
                             </router-link>
-                            <router-link :to="'/about'">
+                            <router-link :to="'/about'" exact>
                                 <a class="dropdown-item" href="javascript:void(0);">About Us</a>
                             </router-link>
                         </div>
@@ -58,7 +58,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown22">
                             &nbsp;<img id="header-lang-img" :src="'/assets/images/british.png'" alt="Header Language"
-                                height="16" width="25px">&nbsp;<span>Dollar</span>
+                                height="16" width="25px">&nbsp;<span style="cursor:pointer;">Dollar</span>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -220,6 +220,34 @@ export default {
 </script>
 
 <style scoped>
+    a:link { text-decoration: none; }
+
+
+    a:visited { text-decoration: none; }
+
+
+    a:hover { text-decoration: none; }
+
+
+    a:active { text-decoration: none; }
+    .dropdown-item:hover, .dropdown-item:focus{
+        color:#20966B !important;
+    }
+    a.dropdown-item{
+        color:#000;
+    }
+    a.nav-item{
+        text-decoration: none;
+    }
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+        color:#20926B;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color:#000;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color:#20926B;
+    }
     .footerForm{
         position:relative;
         right:15px;
