@@ -13,21 +13,21 @@
                             <p>Add the four-digit code</p>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 digit1">
                                 <input type="text" name="num1" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" class="text-center sms1" style="border-radius: 7px;opacity:1;background: #FAFAFA 0% 0% no-repeat padding-box;"/>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 digit2">
                                 <input type="text" name="num2" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" class="text-center sms2" style="border-radius: 7px;opacity:1;background: #FAFAFA 0% 0% no-repeat padding-box;"/>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 digit3">
                                 <input type="text" name="num3" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" class="text-center sms3" style="border-radius: 7px;opacity:1;background: #FAFAFA 0% 0% no-repeat padding-box;"/>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 digit4">
                                 <input type="text" name="num4" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" class="text-center sms4" style="border-radius: 7px;opacity:1;background: #FAFAFA 0% 0% no-repeat padding-box;"/>
                             </div>
                         </div>
                         
-                        <br>
+                        <br class="inMobileDisappear">
                         <br>
                         <br>
                         <div class="pb-3">
@@ -76,6 +76,9 @@
 import $ from "jquery";
 export default {
     name:"Reset2",
+    mounted(){
+        $('.sms1').focus();
+    },
     methods:{
         SubmitForm:function(e){
             e.preventDefault();
@@ -134,11 +137,17 @@ $(window).on('load' , function(){
     .imageCss{
         width:550px !important;
     }
+    .inMobileDisappear{
+        display:block;
+    }
 }
 
 @media only screen and (width : 1024px){
     .imageCss{
         width:400px !important;
+    }
+    .inMobileDisappear{
+        display:block;
     }
 }
 
@@ -148,6 +157,9 @@ $(window).on('load' , function(){
     }
     .fahmyCode{
         width:30px;
+    }
+    .inMobileDisappear{
+        display:block;
     }
 }
 
@@ -159,5 +171,58 @@ $(window).on('load' , function(){
         position:relative;
         right:-20px;
     }
+    .digit1{
+        position:relative;
+        right:0px;
+        top:0px;
+        width:90px;
+    }
+    .digit2{
+        position:relative;
+        right:0px;
+        top:0px;
+        width:90px;
+    }
+    .digit3{
+        position:relative;
+        right:0px;
+        top:0px;
+        width:90px;
+    }
+    .digit4{
+        position:relative;
+        right:0px;
+        top:0px;
+        width:90px;
+    }
+    .inMobileDisappear{
+        display:none;
+    }
+    @media only screen and (width: 320px){
+        .digit1{
+            position:relative;
+            right:0px;
+            top:0px;
+            width:70px;
+        }
+        .digit2{
+            position:relative;
+            right:0px;
+            top:0px;
+            width:70px;
+        }
+        .digit3{
+            position:relative;
+            right:0px;
+            top:0px;
+            width:70px;
+        }
+        .digit4{
+            position:relative;
+            right:0px;
+            top:0px;
+            width:70px;
+        }
+    } 
 }
 </style>

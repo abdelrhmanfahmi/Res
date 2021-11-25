@@ -157,7 +157,7 @@ export default {
     name:"Setting",
     mounted(){
         var namePage = document.URL.split("/")[4];
-        console.log(namePage);
+        // console.log(namePage);
         if(namePage == "favourite"){
             $('#firstLI').addClass('activeNow');
             $('#secondLI').removeClass('activeNow');
@@ -207,7 +207,7 @@ export default {
             $('#sixthLI').addClass('activeNow');
             $('#sevenLI').removeClass('activeNow');
         }else{
-            console.log('none');
+            // console.log('none');
         }
     },
     methods:{
@@ -236,7 +236,7 @@ $(document).ready(function(){
     }
 
     var namePage = document.URL.split("/")[4];
-    console.log(namePage);
+    // console.log(namePage);
     if(namePage == "favourite"){
         $('#firstLI').addClass('activeNow');
         $('#secondLI').removeClass('activeNow');
@@ -286,7 +286,7 @@ $(document).ready(function(){
         $('#sixthLI').addClass('activeNow');
         $('#sevenLI').removeClass('activeNow');
     }else{
-        console.log('none');
+        // console.log('none');
     }
 
     $(window).on('resize' , function(){
