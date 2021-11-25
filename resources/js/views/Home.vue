@@ -826,11 +826,11 @@ export default {
     @media screen and (min-width: 1025px) and (max-width: 1340px){
         .inWidthMobile{
             position:relative;
-            right:-90px;
+            right:-20px;
         }
         .imageOverlayCarousel{
             position:relative;
-            right:-160px;
+            right:-90px;
         }
     }
 
@@ -854,14 +854,14 @@ export default {
     @media screen and (min-width:768px) and (max-width:1000px) {
         .imageOverlayCarousel{
             position:relative;
-            right:-140px;
+            right:-90px;
         }
         .VueCarousel{
             width:740px;
         }
         .inWidthMobile{
             position:relative;
-            right:-70px;
+            right:-20px;
         }
         .inWidthMobileClosed{
             padding-top: 0rem !important;
@@ -886,7 +886,7 @@ export default {
         }
         .inWidthMobile{
             position:relative;
-            right:-60px;
+            right:-20px;
         }
         .inWidthMobileClosed{
             padding-top: 0rem !important;
@@ -899,43 +899,43 @@ export default {
         }
         .imageOverlayCarousel{
             position:relative;
-            right:-130px;
+            right:-90px;
         }
     }
     @media only screen and (width:414px){
         .inWidthMobile{
             position:relative;
-            right:-60px;
+            right:-20px;
         }
         .imageOverlayCarousel{
             position:relative;
-            right:-130px;
+            right:-90px;
         }
     }
     @media only screen and (width:412px){
         .inWidthMobile{
             position:relative;
-            right:-60px;
+            right:-20px;
         }
         .imageOverlayCarousel{
             position:relative;
-            right:-130px;
+            right:-90px;
         }
     }
     @media only screen and (width:411px){
         .inWidthMobile{
             position:relative;
-            right:-60px;
+            right:-20px;
         }
         .imageOverlayCarousel{
             position:relative;
-            right:-130px;
+            right:-90px;
         }
     }
     @media only screen and (width:393px){
         .inWidthMobile{
             position:relative;
-            right:-60px;
+            right:-20px;
         }
     }
     @media only screen and (width:360px){
@@ -954,11 +954,11 @@ export default {
     @media only screen and (width:320px){
         .imageOverlayCarousel{
             position:relative;
-            right:-80px;
+            right:-70px;
         }
         .inWidthMobile{
             position:relative;
-            right:-10px;
+            right:0px;
         }
         .widthInMobileBig{
             width:291px;
