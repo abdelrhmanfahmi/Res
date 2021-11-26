@@ -23,6 +23,8 @@ import Setting from "./views/Setting.vue";
 import Documents from "./views/Documents.vue";
 import Referral from "./views/Referral.vue";
 import Wallet from "./views/Wallet.vue";
+import ViewDocument from "./views/ViewDocument.vue";
+import Invest from "./views/Invest.vue";
 
 Vue.use(Router);
 
@@ -136,6 +138,16 @@ const routes = [
         name:"Wallet",
         path:"/wallet",
         component:Wallet
+    },
+    {
+        name:"ViewDocument",
+        path:"/document/:id",
+        component:ViewDocument
+    },
+    {
+        name:"Invest",
+        path:"/invest",
+        component:Invest
     }
 ];
 

@@ -312,7 +312,7 @@ $(document).ready(function(){
         position: absolute;
         display: inline-block;
         right: 600px;
-        top: 49px;
+        top: 34px;
     }
     .quodrant{
         border-top:1px solid #eee;

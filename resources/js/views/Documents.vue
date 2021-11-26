@@ -347,6 +347,7 @@ export default {
         },
         submitForm:function(e){
             e.preventDefault();
+            this.$router.push({ path: '/document/1' });
         },
     }
 }
