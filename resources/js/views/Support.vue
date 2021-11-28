@@ -38,7 +38,7 @@
                     </li>
                     <li>
                         <router-link :to="'/support'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="sixthLI"> <img :src="'assets/images/Chat.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Support</a>
+                            <a href="javascript:void(0);" id="sixthLI"> <i class="fa fa-comment-dots" style="font-size:20px"></i> &nbsp;&nbsp;&nbsp;  Support</a>
                         </router-link>
                     </li>
                     <li>

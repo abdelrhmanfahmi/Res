@@ -1,0 +1,21 @@
+.VueCarousel-wrapper{
+    width:1190px;
+}
+
+@media only screen and (width : 1024px){
+    .VueCarousel-wrapper{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+    .VueCarousel-wrapper{
+        width:100%;
+    }
+}
+
+@media (max-width: 500px){
+    .VueCarousel-wrapper{
+        width:100%;
+    }
+}

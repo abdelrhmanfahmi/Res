@@ -73,9 +73,9 @@
                         <a class="nav-link" href="javascript:void(0);">|</a>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="'/favourite'" class="nav-item" exact>
-                            <a class="nav-link" href="javascript:void(0);">
-                                <i class="fa fa-heart rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
+                        <router-link :to="'/favourite'" class="nav-item filledForHeart2" exact>
+                            <a class="nav-link filledForHeart" href="javascript:void(0);">
+                                <i class="fa fa-heart rounded-circle filled" style="border:1px solid #eee;padding:10px;"></i>
                             </a>
                         </router-link>
                     </li>
@@ -183,7 +183,7 @@
                         </ul>
                     </div>
                 
-                    <div class="col-md-4 mb-md-0 mb-3 d-flex align-items-start flex-column bd-highlight mb-3">
+                    <div class="col-md-4 mb-md-0 mb-3 d-flex align-items-start flex-column bd-highlight mb-3 inMobileMoveToCenter">
                         <h5 class="text-white">Latest News</h5>
                         <hr class="secondHr">
                         <div class="row p-2 bd-highlight">
@@ -235,6 +235,10 @@ export default {
         }
     }
 }
+
+$(document).ready(function(){
+    
+});
 </script>
 
 <style scoped>
@@ -302,6 +306,7 @@ export default {
         border-style: inset;
         border-width: 1px;
         width: 170px;
+        color:#fff;
     }
     .secondHr{
         display: block;
@@ -312,6 +317,7 @@ export default {
         border-style: inset;
         border-width: 1px;
         width: 140px;
+        color:#fff;
     }
     .thirdHr{
         display: block;
@@ -322,6 +328,7 @@ export default {
         border-style: inset;
         border-width: 1px;
         width: 120px;
+        color:#fff;
     }
     .twitterCss{
         border: 1px solid #777777;
@@ -434,6 +441,12 @@ export default {
         position:relative;
         right:-120px;
     }
+    .inMobileMoveToCenter{
+        align-items:center !important;
+    }
+    .secondHr{
+        margin-left:110px;
+    }
 }
 
 @media only screen and (width : 412px){
@@ -501,6 +514,9 @@ export default {
     .thirdHr{
         position:relative;
         right:-70px;
+    }
+    .secondHr{
+        margin-left:70px;
     }
 }
 </style>

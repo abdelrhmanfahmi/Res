@@ -25,7 +25,7 @@
                     </li>
                     <li>
                         <router-link :to="'/referral'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="fourthLI"> <img :src="'assets/images/noun_marketing_3993120.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Referral</a>
+                            <a href="javascript:void(0);" id="fourthLI"> <i class="fa fa-bullhorn" style="font-size:20px"></i> &nbsp;&nbsp;&nbsp;  Referral</a>
                         </router-link>
                     </li>
                     <li>

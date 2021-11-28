@@ -490,28 +490,28 @@
                     </div>
                 </div>
                 <div class="row pt-5">
-                    <div class="col-md-3">
+                    <div class="col-md-3 inWidthMobileForInvestor">
                         <img :src="'assets/images/icons8_verified_account_2.svg'" class="img-fluid" width="60px" height="60px" alt="">
                         <div class="pt-4">
                             <h4 style="color:#38435B;font-weight: bold;">Ceate an account</h4>
                             <p class="pt-2" style="color:#38435B">Sign up for free to access property details and get a personalized dashboard</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 inWidthMobileForInvestor">
                         <img :src="'assets/images/16405049131582960209.svg'" class="img-fluid" width="60px" height="60px" alt="">
                         <div class="pt-3">
                             <h4 style="color:#38435B;font-weight: bold;">Start Investing</h4>
                             <p class="pt-2" style="color:#38435B">Browse available properties and make an investment</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 inWidthMobileForInvestor">
                         <img :src="'assets/images/g1833.svg'" class="img-fluid" width="60px" height="60px" alt="">
                         <div style="padding-top:1.3rem !important;">
                             <h4 style="color:#38435B;font-weight: bold;">Earn Income</h4>
                             <p class="pt-2" style="color:#38435B">Receive your periodic distributions when rent is paid</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 inWidthMobileForInvestor">
                         <img :src="'assets/images/Group 16391.svg'" class="img-fluid" width="60px" height="60px" alt="">
                         <div style="padding-top:2.1rem !important;">
                             <h4 style="color:#38435B;font-weight: bold;">Enjoy Your Returns</h4>
@@ -963,6 +963,9 @@ $(document).ready(function(){
     }
 
     @media (max-width: 500px){
+        .inWidthMobileForInvestor{
+            text-align:center;
+        }
         .VueCarousel{
             width:370px;
         }

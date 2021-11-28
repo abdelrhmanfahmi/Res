@@ -20,7 +20,7 @@
                     </li>
                     <li>
                         <router-link :to="'/documents'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="thirdLI"> <img :src="'assets/images/Document.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Documents</a>
+                            <a href="javascript:void(0);" id="thirdLI"> <i class="fa fa-file-alt" style="font-size:20px"></i> &nbsp;&nbsp;&nbsp;  Documents</a>
                         </router-link>
                     </li>
                     <li>

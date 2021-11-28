@@ -15,7 +15,7 @@
                     </li>
                     <li>
                         <router-link :to="'/wallet'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="secondLI"> <img :src="'assets/images/Wallet.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Wallet</a>
+                            <a href="javascript:void(0);" id="secondLI"> <i class="fa fa-wallet" style="font-size:20px"></i> &nbsp;&nbsp;&nbsp;  Wallet</a>
                         </router-link>
                     </li>
                     <li>

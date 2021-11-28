@@ -10,7 +10,7 @@
                 <ul class="sidebar-nav">
                     <li>
                         <router-link :to="'/favourite'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="firstLI"> <img :src="'assets/images/Heart1.svg'" alt=""> &nbsp;&nbsp;&nbsp;  Favourite</a>
+                            <a href="javascript:void(0);" id="firstLI"> <i class="fa fa-heart" style="font-size:20px"></i> &nbsp;&nbsp;&nbsp;  Favourite</a>
                         </router-link>
                     </li>
                     <li>

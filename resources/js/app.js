@@ -19,6 +19,8 @@ import VueSidebarMenu from 'vue-sidebar-menu'
 
 Vue.use(VueSidebarMenu)
 
+import "/public/css/style.css";
+
 
 const app = new Vue({
     el: '#app',

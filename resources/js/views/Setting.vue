@@ -33,7 +33,7 @@
                     </li>
                     <li>
                         <router-link :to="'/setting'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="fifthLI"> <img :src="'assets/images/Setting.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Settings</a>
+                            <a href="javascript:void(0);" id="fifthLI"> <i class="fa fa-cog" style="font-size:20px"></i> &nbsp;&nbsp;&nbsp;  Settings</a>
                         </router-link>
                     </li>
                     <li>
