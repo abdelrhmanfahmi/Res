@@ -8,7 +8,7 @@
         <nav v-if="!['Login', 'Register', 'Reset1' , 'Reset2' , 'Reset3' , 'Reset4' ,].includes($route.name)" class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color:#fff !important;">
             <router-link :to="'/'">
                 <a class="navbar-brand" href="javascript:void(0);">
-                    <img :src="'assets/images/Logo.png'" width="140px" height="50px" alt="">
+                    <img :src="'assets/images/Group 1.svg'" width="150px" height="50px" alt="">
                 </a>
             </router-link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,16 +38,24 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <router-link :to="'/faq'" exact>
-                                <a class="dropdown-item" href="javascript:void(0);">FAQS</a>
+                               <a class="dropdown-item" href="javascript:void(0);">
+                                   <img :src="'assets/images/noun_FAQ_1272960.svg'" width="15px" alt=""> &nbsp; <span>FAQS</span>
+                               </a>
                             </router-link>
                             <router-link :to="'/terms'" exact>
-                                <a class="dropdown-item" href="javascript:void(0);">Terms And Condition</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/noun_Terms And Conditions_3842634.svg'" width="15px" alt=""> &nbsp; <span>Terms And Condition</span>
+                                </a>
                             </router-link>
                             <router-link :to="'/privacy'" exact>
-                                <a class="dropdown-item" href="javascript:void(0);">Privacy Policy</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Shield Done.svg'" width="15px" alt=""> &nbsp; <span>Privacy Policy</span>
+                                </a>
                             </router-link>
                             <router-link :to="'/about'" exact>
-                                <a class="dropdown-item" href="javascript:void(0);">About Us</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Info Circle.svg'" width="15px" alt=""> &nbsp; <span>About US</span>
+                                </a>
                             </router-link>
                         </div>
                     </li>
@@ -84,19 +92,29 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown33">
                             <router-link :to="'/profile'">
-                                <a class="dropdown-item" href="javascript:void(0);">My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Profile.svg'" width="15px" alt=""> &nbsp; <span>My Profile</span>
+                                </a>
                             </router-link>
                             <router-link :to="'/favourite'">
-                                <a class="dropdown-item" href="javascript:void(0);">Favourite</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Heart1.svg'" width="15px" alt=""> &nbsp; <span>Favourite</span>
+                                </a>
                             </router-link>
                             <router-link :to="'/support'">
-                                <a class="dropdown-item" href="javascript:void(0);">Support</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Chat.svg'" width="15px" alt=""> &nbsp; <span>Support</span>
+                                </a>
                             </router-link>
                             <router-link :to="'/setting'">
-                                <a class="dropdown-item" href="javascript:void(0);">Settings</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Setting.svg'" width="15px" alt=""> &nbsp; <span>Settings</span>
+                                </a>
                             </router-link>
                             <router-link :to="'/'">
-                                <a class="dropdown-item" href="javascript:void(0);">Sign Out</a>
+                                <a class="dropdown-item" href="javascript:void(0);">
+                                    <img :src="'assets/images/Logout.svg'" width="15px" alt=""> &nbsp; <span>Sign Out</span>
+                                </a>
                             </router-link>
                         </div>
                     </li>
@@ -119,7 +137,7 @@
                     <div class="col-md-3 mt-md-0 mt-3 d-flex justify-content-center">
                         <div class="row d-flex align-items-end flex-column bd-highlight mb-3">
                             <div class="col-auto p-2 bd-highlight footerImageMobile">
-                                <img :src="'assets/images/Logo.png'" width="170px" height="60px" alt="">
+                                <img :src="'assets/images/Group 16383.svg'" class="imageInIpad" width="170px" height="60px" alt="">
                             </div>
                             <div class="col-auto mt-auto p-2 bd-highlight footerLinksMobile">
                                 <ul class="list-unstyled d-flex mb-0">
@@ -369,6 +387,10 @@ export default {
     .firstHr{
         width:130px;
     }
+    .footerImageMobile{
+        position:relative;
+        right:30px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1000px) {
@@ -382,6 +404,13 @@ export default {
     }
     .firstHr{
         width:100px;
+    }
+    .imageInIpad{
+        width:150px;
+    }
+    .footerImageMobile{
+        position:relative;
+        right:40px;
     }
 }
 

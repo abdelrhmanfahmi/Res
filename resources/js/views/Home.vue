@@ -14,15 +14,15 @@
                             property of your favorite area
                         </p>
                         <br>
-                        <button class="btn btnForHeadeUp" @click="GoToRegister">
+                        <button class="btn btnForHeadeUp mb-3" @click="GoToRegister">
                             <span style="color:#fff;font-size:18px;">SIGN UP</span>
                         </button>
-                        <button class="btn btnForHeaderIn" @click="GoToLogin">
+                        <button class="btn btnForHeaderIn mb-3" @click="GoToLogin">
                             <span style="color:#fff;font-size:18px;">SIGN IN</span>
                         </button>
                     </div>
                     <div class="col-md-6 d-flex justify-content-end mt-3">
-                        <img :src="'assets/images/back-graond-04.jpg'" class="img-fluid" width="400px" alt="">
+                        <img :src="'assets/images/Group 16619.svg'" class="img-fluid" width="400px" alt="">
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
-                                    <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <img :src="'/assets/images/amadeusz-misiak-oXQT32eAMGE-unsplash.png'" class="card-img-top" alt="...">
                                     <div class="card-img-overlay card-inverse">
                                         <div class="row imageOvelayRow">
                                             <div class="col-auto">
@@ -65,16 +65,16 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                                 </div>
                                                 <div class="pt-2">
-                                                    <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                                 </div>
                                                 <div class="" style="padding-top:0.3rem !important;">
                                                     <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -85,7 +85,7 @@
                                             </div>
                                             <div class="col-auto inWidthMobile">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                                 </div>
                                                 <div class="pt-2">
                                                     <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -107,7 +107,7 @@
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
-                                    <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <img :src="'/assets/images/hohyeong-lee-e0uCDHd19U4-unsplash.png'" class="card-img-top" alt="...">
                                     <div class="card-img-overlay card-inverse">
                                         <div class="row imageOvelayRow">
                                             <div class="col-auto">
@@ -127,16 +127,16 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                                 </div>
                                                 <div class="pt-2">
-                                                    <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                                 </div>
                                                 <div class="" style="padding-top:0.3rem !important;">
                                                     <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -147,7 +147,7 @@
                                             </div>
                                             <div class="col-auto inWidthMobile">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                                 </div>
                                                 <div class="pt-2">
                                                     <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -169,7 +169,7 @@
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
-                                    <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <img :src="'/assets/images/ben-o-bro-wpU4veNGnHg-unsplash.png'" class="card-img-top" alt="...">
                                     <div class="card-img-overlay card-inverse">
                                         <div class="row imageOvelayRow">
                                             <div class="col-auto">
@@ -189,16 +189,16 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                                 </div>
                                                 <div class="pt-2">
-                                                    <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                                 </div>
                                                 <div class="" style="padding-top:0.3rem !important;">
                                                     <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -209,7 +209,7 @@
                                             </div>
                                             <div class="col-auto inWidthMobile">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                                 </div>
                                                 <div class="pt-2">
                                                     <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -231,7 +231,7 @@
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
-                                    <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <img :src="'/assets/images/rahul-bhogal-Ub9LkIWxyec-unsplash.png'" class="card-img-top" alt="...">
                                     <div class="card-img-overlay card-inverse">
                                         <div class="row imageOvelayRow">
                                             <div class="col-auto">
@@ -251,16 +251,16 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                                 </div>
                                                 <div class="pt-2">
-                                                    <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                                 </div>
                                                 <div class="" style="padding-top:0.3rem !important;">
                                                     <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -271,7 +271,7 @@
                                             </div>
                                             <div class="col-auto inWidthMobile">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                                 </div>
                                                 <div class="pt-2">
                                                     <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -293,7 +293,7 @@
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
-                                    <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <img :src="'/assets/images/shea-rouda-Vtl6cOhO87Y-unsplash.png'" class="card-img-top" alt="...">
                                     <div class="card-img-overlay card-inverse">
                                         <div class="row imageOvelayRow">
                                             <div class="col-auto">
@@ -313,16 +313,16 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                                 </div>
                                                 <div class="pt-2">
-                                                    <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                                 </div>
                                                 <div class="" style="padding-top:0.3rem !important;">
                                                     <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -333,7 +333,7 @@
                                             </div>
                                             <div class="col-auto inWidthMobile">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                                 </div>
                                                 <div class="pt-2">
                                                     <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -355,7 +355,7 @@
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
-                                    <img :src="'/assets/images/back-graond-04.jpg'" class="card-img-top" alt="...">
+                                    <img :src="'/assets/images/amadeusz-misiak-oXQT32eAMGE-unsplash.png'" class="card-img-top" alt="...">
                                     <div class="card-img-overlay card-inverse">
                                         <div class="row imageOvelayRow">
                                             <div class="col-auto">
@@ -375,16 +375,16 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                                 </div>
                                                 <div class="pt-2">
-                                                    <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                                 </div>
                                                 <div class="pt-1">
-                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                                 </div>
                                                 <div class="" style="padding-top:0.3rem !important;">
                                                     <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -395,7 +395,69 @@
                                             </div>
                                             <div class="col-auto inWidthMobile">
                                                 <div style="background-color:#F5F5F5;padding:5px;">
-                                                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                                                </div>
+                                                <div class="pt-2">
+                                                    <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+                                                        <div class="progress-value">100%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
+                                                    <span class="closeRight">Closed</span>
+                                                </div>
+                                                <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
+                                                    <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </slide>
+                        <slide>
+                            <div class="col-md-12 widthInMobileBig">
+                                <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">
+                                    <img :src="'/assets/images/rahul-bhogal-Ub9LkIWxyec-unsplash.png'" class="card-img-top" alt="...">
+                                    <div class="card-img-overlay card-inverse">
+                                        <div class="row imageOvelayRow">
+                                            <div class="col-auto">
+                                                <a href="javascript:void(0);">
+                                                    <i class="fa fa-heart heartOverlay"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-auto">
+                                                
+                                                <div class="imageOverlayCarousel">
+                                                    <p style="color:#fff;text-align:center;margin:2px;">Three Years</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-auto">
+                                                <div style="background-color:#F5F5F5;padding:5px;">
+                                                <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                                </div>
+                                                <div class="pt-2">
+                                                    <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
+                                                </div>
+                                                <div class="pt-1">
+                                                    <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
+                                                </div>
+                                                <div class="pt-1">
+                                                    <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
+                                                </div>
+                                                <div class="" style="padding-top:0.3rem !important;">
+                                                    <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
+                                                </div>
+                                                <div class="pt-3">
+                                                    <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto inWidthMobile">
+                                                <div style="background-color:#F5F5F5;padding:5px;">
+                                                    <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                                 </div>
                                                 <div class="pt-2">
                                                     <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -429,24 +491,32 @@
                 </div>
                 <div class="row pt-5">
                     <div class="col-md-3">
-                        <img :src="'assets/images/avatar-8.jpg'" class="img-fluid" width="80px" alt="">
-                        <h4 class="pt-2" style="color:#38435B;font-weight: bold;">Ceate an account</h4>
-                        <p class="pt-2" style="color:#38435B">Sign up for free to access property details and get a personalized dashboard</p>
+                        <img :src="'assets/images/icons8_verified_account_2.svg'" class="img-fluid" width="60px" height="60px" alt="">
+                        <div class="pt-4">
+                            <h4 style="color:#38435B;font-weight: bold;">Ceate an account</h4>
+                            <p class="pt-2" style="color:#38435B">Sign up for free to access property details and get a personalized dashboard</p>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <img :src="'assets/images/avatar-8.jpg'" class="img-fluid" width="80px" alt="">
-                        <h4 class="pt-2" style="color:#38435B;font-weight: bold;">Start Investing</h4>
-                        <p class="pt-2" style="color:#38435B">Browse available properties and make an investment</p>
+                        <img :src="'assets/images/16405049131582960209.svg'" class="img-fluid" width="60px" height="60px" alt="">
+                        <div class="pt-3">
+                            <h4 style="color:#38435B;font-weight: bold;">Start Investing</h4>
+                            <p class="pt-2" style="color:#38435B">Browse available properties and make an investment</p>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <img :src="'assets/images/avatar-8.jpg'" class="img-fluid" width="80px" alt="">
-                        <h4 class="pt-2" style="color:#38435B;font-weight: bold;">Earn Income</h4>
-                        <p class="pt-2" style="color:#38435B">Receive your periodic distributions when rent is paid</p>
+                        <img :src="'assets/images/g1833.svg'" class="img-fluid" width="60px" height="60px" alt="">
+                        <div style="padding-top:1.3rem !important;">
+                            <h4 style="color:#38435B;font-weight: bold;">Earn Income</h4>
+                            <p class="pt-2" style="color:#38435B">Receive your periodic distributions when rent is paid</p>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <img :src="'assets/images/avatar-8.jpg'" class="img-fluid" width="80px" alt="">
-                        <h4 class="pt-2" style="color:#38435B;font-weight: bold;">Enjoy Your Returns</h4>
-                        <p class="pt-2" style="color:#38435B">Re-invest to multiply your returns or withdraw to enjoy your cash!</p>
+                        <img :src="'assets/images/Group 16391.svg'" class="img-fluid" width="60px" height="60px" alt="">
+                        <div style="padding-top:2.1rem !important;">
+                            <h4 style="color:#38435B;font-weight: bold;">Enjoy Your Returns</h4>
+                            <p class="pt-2" style="color:#38435B">Re-invest to multiply your returns or withdraw to enjoy your cash!</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -461,50 +531,50 @@
                     </div>
                 </div>
                 <div class="row pt-5">
-                    <div class="col-md-2">
+                    <div class="col-md-2 mb-3 changeCols zzzz">
                         <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
                             <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
-                                <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
+                                <img :src="'assets/images/icons8_happy_1.svg'" width="90px" height="50px" class="rounded-circle" alt="">
                                 <div class="card-text pb-2 pt-4" style="font-size:14px;">Without Experience</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mb-3 changeCols zzzz">
                         <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
                             <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
-                                <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
+                                <img :src="'assets/images/9_1-project-experience.svg'" width="90px" height="50px" class="rounded-circle" alt="">
                                 <div class="card-text pb-2 pt-4" style="font-size:14px;">Without Experience</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mb-3 changeCols zzzz">
                         <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
                             <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
-                                <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
+                                <img :src="'assets/images/icons8_transaction.svg'" width="90px" height="50px" class="rounded-circle" alt="">
                                 <div class="card-text pb-2 pt-4" style="font-size:14px;">Reasonable Prices</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mb-3 changeCols zzzz">
                         <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
                             <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
-                                <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
+                                <img :src="'assets/images/faster-3.svg'" width="90px" height="50px" class="rounded-circle" alt="">
                                 <div class="card-text pb-2 pt-4" style="font-size:14px;">Faster</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mb-3 changeCols zzzz">
                         <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
                             <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
-                                <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
+                                <img :src="'assets/images/icons8_easy.svg'" width="90px" height="50px" class="rounded-circle" alt="">
                                 <div class="card-text pb-2 pt-4" style="font-size:14px;">Much Easier</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mb-3 changeCols zzzz">
                         <div class="card" style="height:160px;box-shadow: 0px 10px 30px #00000014;border-radius: 15px;background-color: #fff">
                             <div class="card-body text-center p-3" style="padding-top:2.5rem !important;">
-                                <img :src="'assets/images/avatar-8.jpg'" width="50px" height="50px" class="rounded-circle" alt="">
+                                <img :src="'assets/images/Icon awesome-coins.svg'" width="90px" height="50px" class="rounded-circle" alt="">
                                 <div class="card-text pb-2 pt-4" style="font-size:14px;">Reasonable Prices</div>
                             </div>
                         </div>
@@ -525,7 +595,8 @@
                     <div class="col-md-6 AppStoreMobile d-flex justify-content-end">
                         <div class="appStore d-flex bd-highlight mb-3">
                             <div class="mr-auto p-2 bd-highlight d-flex align-items-center">
-                                <i class="fab fa-apple" style="color:#20926B;font-size:40px;"></i>
+                                <!-- <i class="fab fa-apple" style="color:#20926B;font-size:40px;"></i> -->
+                                <img :src="'assets/images/XMLID_27_.svg'" width="50px" height="50px" alt="">
                             </div>
                             <div class="p-2 bd-highlight">
                                 <small>Download On The</small>
@@ -536,7 +607,8 @@
                     <div class="col-md-6 GooglePlayMobile d-flex justify-content-start">
                         <div class="playStore d-flex bd-highlight mb-3">
                             <div class="mr-auto p-2 bd-highlight d-flex align-items-center">
-                                <i class="fab fa-google-play" style="color:#20926B;font-size:40px;"></i>
+                                <!-- <i class="fab fa-google-play" style="color:#20926B;font-size:40px;"></i> -->
+                                <img :src="'assets/images/Group 16628.svg'" width="50px" height="50px" alt="">
                             </div>
                             <div class="p-2 bd-highlight">
                                 <small>Available On The</small>
@@ -570,6 +642,25 @@ export default {
         Slide
     }
 }
+$(document).ready(function(){
+    if($(window).width() == 768){
+        $('.changeCols').removeClass('col-md-2 zzzz');
+        $('.changeCols').addClass('col-md-4');
+    }else{
+        $('.changeCols').removeClass('col-md-4 zzzz');
+        $('.changeCols').addClass('col-md-2');
+    }
+
+    $(window).on('resize' , function(){
+        if($(window).width() == 768){
+            $('.changeCols').removeClass('col-md-2 zzzz');
+            $('.changeCols').addClass('col-md-4');
+        }else{
+            $('.changeCols').removeClass('col-md-4 zzzz');
+            $('.changeCols').addClass('col-md-2');
+        }
+    });
+});
 </script>
 
 <style scoped>

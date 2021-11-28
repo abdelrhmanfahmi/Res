@@ -8,7 +8,7 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
         <div class="pb-5">
-            <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <img :src="'assets/images/Group 16522.png'" class="imageHeader" alt="">
         </div>
 
         <div class="container pb-5">

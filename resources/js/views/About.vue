@@ -5,7 +5,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
         <div class="">
-            <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <img :src="'assets/images/Group 16522.png'" class="imageHeader" alt="">
         </div>
         <div class="container-fluid">
             <div class="row p-5" style="background-color:#F6F9FC;">
@@ -44,16 +44,19 @@
                 <div class="col-md-6">
                     <h3>Follow us on social media</h3>
                     <div class="pt-5">
-                        <a href="javascript:void(0);" class="hover-fade-out linkedin">
-                            <i class="fab fa-linkedin icon icon-xs" style="color:#fff;font-size:20px;"></i>
+                        <a href="javascript:void(0);" class="hover-fade-out">
+                            <!-- <i class="fab fa-linkedin icon icon-xs" style="color:#fff;font-size:20px;"></i> -->
+                            <img :src="'assets/images/Group 22833.svg'" width="40px" height="50px" alt="">
                         </a>
                         &nbsp;&nbsp;|&nbsp;&nbsp;
-                        <a href="javascript:void(0);" class="hover-fade-out instagram">
-                            <i class="fab fa-instagram icon icon-xs" style="color:#fff;font-size:19px;"></i>
+                        <a href="javascript:void(0);" class="hover-fade-out">
+                            <!-- <i class="fab fa-instagram icon icon-xs" style="color:#fff;font-size:19px;"></i> -->
+                            <img :src="'assets/images/Group 2284.svg'" width="40px" height="50px" alt="">
                         </a>
                         &nbsp;&nbsp;|&nbsp;&nbsp;
-                        <a href="javascript:void(0);" class="hover-fade-out twitter">
-                            <i class="fab fa-twitter icon icon-xs" style="color:#fff;font-size:19px;"></i>
+                        <a href="javascript:void(0);" class="hover-fade-out">
+                            <!-- <i class="fab fa-twitter icon icon-xs" style="color:#fff;font-size:19px;"></i> -->
+                            <img :src="'assets/images/Group 16848.svg'" width="40px" height="50px" alt="">
                         </a>
                     </div>
                 </div>

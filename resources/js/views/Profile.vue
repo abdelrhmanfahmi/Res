@@ -5,7 +5,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
         <div class="pb-5">
-            <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <img :src="'assets/images/Group 16522.png'" class="imageHeader" alt="">
         </div>
         <div class="container pb-5">
             <div class="row">
@@ -62,13 +62,15 @@
                             <div class="row pt-4">
                                 <div class="col-md-6 divsStayUpload d-flex justify-content-end mb-3">
                                     <div class="text-center divsStay" style="">
-                                        <i class="fas fa-upload" style="font-size:50px;"></i>
+                                        <!-- <i class="fas fa-upload" style="font-size:50px;"></i> -->
+                                        <img :src="'assets/images/upload-svgrepo-com.svg'" alt="">
                                         <p class="pt-4" style="color:#20926B;font-weight:bold;font-size:14px;">Add Your Stay</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 divsPassportUpload d-flex justify-content-start mb-3">
                                     <div class="text-center divsPassport">
-                                        <i class="fas fa-upload" style="font-size:50px;"></i>
+                                        <!-- <i class="fas fa-upload" style="font-size:50px;"></i> -->
+                                        <img :src="'assets/images/upload-svgrepo-com.svg'" alt="">
                                         <p class="pt-4" style="color:#20926B;font-weight:bold;font-size:14px;">Add Passport</p>
                                     </div>
                                 </div>

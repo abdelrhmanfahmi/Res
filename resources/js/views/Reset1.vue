@@ -33,8 +33,8 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-5 d-flex justify-content-end" style="background-color:#D1CDCA;">
-                    <img :src="'assets/images/back-graond-04.jpg'" class="imageCss" width="600px" height="740px" alt="">
+                <div class="col-md-5 d-flex justify-content-end" style="background-color:#20966b26;padding:0px;">
+                    <img :src="'assets/images/Group 16820.svg'" class="imageCss" width="600px" height="740px" alt="">
                 </div>
                 <div class="col-md-1 d-flex justify-content-center align-items-start">
                     <div class="row socialLinksMobile d-flex align-items-end flex-column bd-highlight mb-3">
@@ -44,19 +44,22 @@
                         <div class="col-md-6 mt-auto p-2 bd-highlight fahmyCode">
                             <div class="social-links">
                                 <ul class="list-unstyled">
-                                    <li class="mx-3 mb-4">
-                                        <a href="javascript:void(0);" class="hover-fade-out linkedin">
-                                            <i class="fab fa-linkedin icon icon-xs" style="color:#fff;"></i>
+                                    <li class="mx-3 mb-3">
+                                        <a href="javascript:void(0);" class="hover-fade-out">
+                                            <!-- <i class="fab fa-linkedin icon icon-xs" style="color:#fff;"></i> -->
+                                            <img :src="'assets/images/Group 2283.svg'" width="40px" height="50px" alt="">
                                         </a>
                                     </li>
-                                    <li class="mx-3 mb-4">
-                                        <a href="javascript:void(0);" class="hover-fade-out instagram">
-                                            <i class="fab fa-instagram icon icon-xs" style="color:#fff;"></i>
+                                    <li class="mx-3 mb-3">
+                                        <a href="javascript:void(0);" class="hover-fade-out">
+                                            <!-- <i class="fab fa-instagram icon icon-xs" style="color:#fff;"></i> -->
+                                            <img :src="'assets/images/Group 2284.svg'" width="40px" height="50px" alt="">
                                         </a>
                                     </li>
-                                    <li class="mx-3 mb-4">
-                                        <a href="javascript:void(0);" class="hover-fade-out twitter">
-                                            <i class="fab fa-twitter icon icon-xs" style="color:#fff;"></i>
+                                    <li class="mx-3 mb-3">
+                                        <a href="javascript:void(0);" class="hover-fade-out">
+                                            <!-- <i class="fab fa-twitter icon icon-xs" style="color:#fff;"></i> -->
+                                            <img :src="'assets/images/Group 2282.svg'" width="40px" height="50px" alt="">
                                         </a>
                                     </li>
                                 </ul>

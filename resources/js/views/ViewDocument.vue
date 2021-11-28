@@ -8,7 +8,7 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
         <div class="pb-5">
-            <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <img :src="'assets/images/Group 16522.png'" class="imageHeader" alt="">
         </div>
 
         <div class="container">
@@ -22,8 +22,8 @@
                         <p class="p-2 bd-highlight" style="color:#3F6D97;font-size:17px;">200 SAR</p>
                     </div>
                     <div class="d-flex bd-highlight">
-                        <p class="p-2 bd-highlight"><i class="fas fa-home"></i> 94 m2</p> 
-                        <p class="p-2 bd-highlight"><i class="fas fa-home"></i> 2 Rooms</p>
+                        <p class="p-2 bd-highlight"><img :src="'assets/images/Group 2253.svg'" alt=""> 94 m2</p> 
+                        <p class="p-2 bd-highlight"><img :src="'assets/images/Group 2250.svg'" alt=""> 2 Rooms</p>
                     </div>
                     <div class="pt-1">
                         <p><span style="color:#b5aaaa;">Propert Price</span> &nbsp; <span style="color:#3F6D97;">1000.000 SAR</span></p>
@@ -153,25 +153,25 @@
             <div class="row pt-3">
                 <div class="col-md-3 swimmingPool">
                     <div class="text-center swim">
-                        <span>Hello1</span>
+                        <img :src="'assets/images/Group 16594.svg'" width="100px" alt="">
                     </div>
                     <p class="pt-3 swimText">Swimming Pool</p>
                 </div>
                 <div class="col-md-3 Kitchen">
                     <div class="text-center kitchen">
-                        <span>Hello2</span>
+                        <img :src="'assets/images/Group 16593.svg'" width="100px" alt="">
                     </div>
                     <p class="pt-3 kitText">Kitchen</p>
                 </div>
                 <div class="col-md-3 Garden">
                     <div class="text-center garden">
-                        <span>Hello3</span>
+                        <img :src="'assets/images/Group 16591.svg'" width="100px" alt="">
                     </div>
                     <p class="pt-3 garText">Garden</p>
                 </div>
                 <div class="col-md-3 Jim">
                     <div class="text-center jim">
-                        <span>Hello4</span>
+                        <img :src="'assets/images/Group 16590.svg'" width="100px" alt="">
                     </div>
                     <p class="pt-3 jimText">Jim</p>
                 </div>
@@ -184,14 +184,14 @@
             <div class="row pt-3">
                 <div class="col-md-6 mb-3">
                     <div class="firstProj d-flex bd-highlight">
-                        <img :src="'assets/images/avatar-8.jpg'" width="30px" height="30px" alt="">
+                        <img :src="'assets/images/icons8_microsoft_excel.svg'" width="30px" height="30px" alt="">
                         &nbsp;&nbsp;
                         <p style="color:#20926B;text-decoration:underline">Project125.xw</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-3 gotoBrother">
                     <div class="secondProj d-flex bd-highlight">
-                        <img :src="'assets/images/avatar-8.jpg'" width="30px" height="30px" alt="">
+                        <img :src="'assets/images/icons8_pdf_1.svg'" width="30px" height="30px" alt="">
                         &nbsp;&nbsp;
                         <p style="color:#20926B;text-decoration:underline">Project125.xw</p>
                     </div>
@@ -248,7 +248,7 @@ export default {
         padding:17px;
         width:190px;
         height:57px;
-        background-color:#20966b4d;
+        background-color:#F5F5F5;
     }
     .secondProj{
         position:relative;
@@ -257,7 +257,7 @@ export default {
         padding:17px;
         width:190px;
         height:57px;
-        background-color:#20966b4d;
+        background-color:#F5F5F5;
     }
     .swimText{
         position:relative;
@@ -276,7 +276,7 @@ export default {
         right:240px;
     }
     .swim{
-        background-color:#20966b4d;
+        /* background-color:#20966b4d; */
         padding:5px;
         width:130px;
         position:relative;
@@ -284,7 +284,7 @@ export default {
         top:0px;
     }
     .kitchen{
-        background-color:#20966b4d;
+        /* background-color:#20966b4d; */
         padding:5px;
         width:130px;
         position:relative;
@@ -292,7 +292,7 @@ export default {
         top:0px;
     }
     .garden{
-        background-color:#20966b4d;
+        /* background-color:#20966b4d; */
         padding:5px;
         width:130px;
         position:relative;
@@ -300,7 +300,7 @@ export default {
         top:0px;
     }
     .jim{
-        background-color:#20966b4d;
+        /* background-color:#20966b4d; */
         padding:5px;
         width:130px;
         position:relative;
@@ -560,7 +560,7 @@ export default {
             text-align:center;
         }
         .swim{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -568,7 +568,7 @@ export default {
             /* top:0px; */
         }
         .kitchen{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -576,7 +576,7 @@ export default {
             /* top:0px; */
         }
         .garden{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -584,7 +584,7 @@ export default {
             /* top:0px; */
         }
         .jim{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -636,7 +636,7 @@ export default {
             text-align:center;
         }
         .swim{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -644,7 +644,7 @@ export default {
             /* top:0px; */
         }
         .kitchen{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -652,7 +652,7 @@ export default {
             /* top:0px; */
         }
         .garden{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -660,7 +660,7 @@ export default {
             /* top:0px; */
         }
         .jim{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -704,7 +704,7 @@ export default {
             right:0px;
         }
         .swim{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -712,7 +712,7 @@ export default {
             /* top:0px; */
         }
         .kitchen{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -720,7 +720,7 @@ export default {
             /* top:0px; */
         }
         .garden{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;
@@ -728,7 +728,7 @@ export default {
             /* top:0px; */
         }
         .jim{
-            background-color:#20966B;
+            /* background-color:#20966B; */
             padding:5px;
             width:130px;
             position:relative;

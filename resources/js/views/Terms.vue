@@ -1,12 +1,12 @@
 <template>
     <div class="terms pt-5">
         <div class="pb-5">
-            <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <img :src="'assets/images/Group 16522.png'" class="imageHeader" alt="">
         </div>
         <div class="container">
             <div class="row pt-4">
                 <div class="col-md-12 d-flex justify-content-center">
-                    <img :src="'assets/images/back-graond-04.jpg'" width="100px" height="100px" alt="">
+                    <img :src="'assets/images/Group 16040.svg'" width="100px" height="100px" alt="">
                 </div>
             </div>
             <div class="row pt-4">

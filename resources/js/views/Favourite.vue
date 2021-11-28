@@ -10,22 +10,22 @@
                 <ul class="sidebar-nav">
                     <li>
                         <router-link :to="'/favourite'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="firstLI"> <i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;  Favourite</a>
+                            <a href="javascript:void(0);" id="firstLI"> <img :src="'assets/images/Heart1.svg'" alt=""> &nbsp;&nbsp;&nbsp;  Favourite</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/wallet'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="secondLI"> <i class="fa fa-wallet"></i> &nbsp;&nbsp;&nbsp;  Wallet</a>
+                            <a href="javascript:void(0);" id="secondLI"> <img :src="'assets/images/Wallet.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Wallet</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/documents'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="thirdLI"> <i class="fa fa-file"></i> &nbsp;&nbsp;&nbsp;  Documents</a>
+                            <a href="javascript:void(0);" id="thirdLI"> <img :src="'assets/images/Document.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Documents</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/referral'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="fourthLI"> <i class="fa fa-user"></i> &nbsp;&nbsp;&nbsp;  Referral</a>
+                            <a href="javascript:void(0);" id="fourthLI"> <img :src="'assets/images/noun_marketing_3993120.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Referral</a>
                         </router-link>
                     </li>
                     <li>
@@ -33,17 +33,17 @@
                     </li>
                     <li>
                         <router-link :to="'/setting'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="fifthLI"> <i class="fa fa-cog"></i> &nbsp;&nbsp;&nbsp;  Settings</a>
+                            <a href="javascript:void(0);" id="fifthLI"> <img :src="'assets/images/Setting.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Settings</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/support'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="sixthLI"> <i class="fa fa-comment"></i> &nbsp;&nbsp;&nbsp;  Support</a>
+                            <a href="javascript:void(0);" id="sixthLI"> <img :src="'assets/images/Chat.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Support</a>
                         </router-link>
                     </li>
                     <li>
                         <router-link :to="'/'" class="nav-item" exact>
-                            <a href="javascript:void(0);" id="sevenLI"> <i class="fa fa-sign-out-alt"></i> &nbsp;&nbsp;&nbsp;  Log Out</a>
+                            <a href="javascript:void(0);" id="sevenLI"> <img :src="'assets/images/Logout.svg'" width="20px" alt=""> &nbsp;&nbsp;&nbsp;  Log Out</a>
                         </router-link>
                     </li>
                 </ul>
@@ -79,16 +79,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -99,7 +99,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -139,16 +139,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -159,7 +159,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -199,16 +199,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -219,7 +219,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -259,16 +259,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -279,7 +279,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -321,16 +321,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -341,7 +341,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -381,16 +381,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -401,7 +401,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -441,16 +441,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -461,7 +461,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -501,16 +501,16 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                            <i class="fas fa-home"></i> &nbsp; <span>Office</span>
+                                            <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
                                             </div>
                                             <div class="pt-2">
-                                                <span style="color:#3F6D97;font-size:18px;">100 $ <i class="fas fa-long-arrow-alt-up"></i></span>
+                                                <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><i class="fas fa-home"></i> 120 m2</span>
+                                                <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><i class="fas fa-long-arrow-alt-up"></i> 64%</span>
+                                                <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
                                             </div>
                                             <div class="" style="padding-top:0.3rem !important;">
                                                 <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
@@ -521,7 +521,7 @@
                                         </div>
                                         <div class="col-auto inWidthMobile">
                                             <div style="background-color:#F5F5F5;padding:5px;">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-2">
                                                 <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>

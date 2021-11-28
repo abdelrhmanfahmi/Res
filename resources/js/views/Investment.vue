@@ -5,7 +5,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
         <div class="pb-5">
-            <img :src="'assets/images/back-graond-04.jpg'" class="imageHeader" alt="">
+            <img :src="'assets/images/Group 16522.png'" class="imageHeader" alt="">
             <div class="container">
                 <div class="row styleForCards">
                     <div class="col-md-3 mb-4">
@@ -85,7 +85,7 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img :src="'assets/images/back-graond-04.jpg'" class="card-img InEarningsStyle" alt="...">
+                                <img :src="'assets/images/amadeusz-misiak-oXQT32eAMGE-unsplash.png'" class="card-img InEarningsStyle" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -93,7 +93,7 @@
                                         <div class="col-md-6">
                                             <p class="card-title" style="font-size:12px;">Apartment in Rafal Tower</p>
                                             <div class="pt-1">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
                                                 <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
@@ -115,7 +115,7 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img :src="'assets/images/back-graond-04.jpg'" class="card-img" alt="...">
+                                <img :src="'assets/images/shea-rouda-Vtl6cOhO87Y-unsplash.png'" class="card-img" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -123,7 +123,7 @@
                                         <div class="col-md-6">
                                             <p class="card-title" style="font-size:12px;">Apartment in Rafal Tower</p>
                                             <div class="pt-1">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
                                                 <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
@@ -147,7 +147,7 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img :src="'assets/images/back-graond-04.jpg'" class="card-img" alt="...">
+                                <img :src="'assets/images/hohyeong-lee-e0uCDHd19U4-unsplash.png'" class="card-img" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -155,7 +155,7 @@
                                         <div class="col-md-6">
                                             <p class="card-title" style="font-size:12px;">Apartment in Rafal Tower</p>
                                             <div class="pt-1">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
                                                 <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
@@ -177,7 +177,7 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img :src="'assets/images/back-graond-04.jpg'" class="card-img" alt="...">
+                                <img :src="'assets/images/rahul-bhogal-Ub9LkIWxyec-unsplash.png'" class="card-img" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -185,7 +185,7 @@
                                         <div class="col-md-6">
                                             <p class="card-title" style="font-size:12px;">Apartment in Rafal Tower</p>
                                             <div class="pt-1">
-                                                <i class="fas fa-map-marker-alt"></i> &nbsp; <span>London</span>
+                                                <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
                                                 <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
