@@ -96,7 +96,7 @@
                                                 <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
+                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 44%</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -126,7 +126,7 @@
                                                 <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
+                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 44%</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -158,7 +158,7 @@
                                                 <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
+                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 44%</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -188,7 +188,7 @@
                                                 <img :src="'assets/images/Location.svg'" height="18px" alt=""> &nbsp; <span>London</span>
                                             </div>
                                             <div class="pt-1">
-                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><i class="fas fa-long-arrow-alt-up"></i> 44%</span>
+                                                <span style="color:#20926B;">$: 38%</span> &nbsp; <span style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 44%</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
