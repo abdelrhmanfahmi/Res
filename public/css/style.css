@@ -1,3 +1,64 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #009b72;
+    --secondary: #EAEDF2;
+    --success: #009b72;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #F7F9FC;
+    --dark: #2C3038;
+    --primary-2: #046865;
+    --primary-3: #192d35;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "ap";
+    --font-family-monospace:"ap"; }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box; }
+  
+  html {
+    font-family: 'ap';
+    line-height: 1.15;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block; }
+  
+  body {
+        margin: 0;
+        padding:0;
+        font-family: "ap";
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: left;
+        height: 100%;
+        background-color: #fff; 
+    }
+  
+  [tabindex="-1"]:focus {
+    outline: 0 !important; }
+  
 .VueCarousel-wrapper{
     width:1190px;
 }

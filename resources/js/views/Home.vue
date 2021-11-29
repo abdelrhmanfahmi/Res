@@ -14,7 +14,7 @@
                             property of your favorite area
                         </p>
                         <br>
-                        <button class="btn btnForHeadeUp mb-3" @click="GoToRegister">
+                        <button class="btn btnForHeadeUp mb-3 mr-3" @click="GoToRegister">
                             <span style="color:#fff;font-size:18px;">SIGN UP</span>
                         </button>
                         <button class="btn btnForHeaderIn mb-3" @click="GoToLogin">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="row pt-2">
-                    <carousel :per-page-custom="[[320, 1], [360, 1], [375, 1], [393, 1], [411, 1], [412, 1], [414, 1], [768, 2], [1024, 3], [1350, 4]]" :mouse-drag="true">
+                    <carousel :per-page-custom="[[320, 1], [360, 1], [375, 1], [393, 1], [411, 1], [412, 1], [414, 1], [768, 2], [1024, 3],[1299, 4], [1350, 4]]" :mouse-drag="true">
                         <slide>
                             <div class="col-md-12 widthInMobileBig">
                                 <div class="card" style="box-shadow: 0px 3px 8px #EDEDED;">

@@ -52,7 +52,7 @@
                     </form>
                 </div>
                 <div class="col-md-5 d-flex justify-content-end" style="background-color:#20966b26;padding:0px;">
-                    <img :src="'assets/images/Group 16633.svg'" class="imageCss" width="600px" height="740px" alt="">
+                    <img :src="'assets/images/Group 16633.svg'" class="imageCss" alt="">
                 </div>
                 <div class="col-md-1 d-flex justify-content-center align-items-start">
                     <div class="row socialLinksMobile d-flex align-items-end flex-column bd-highlight mb-3">
@@ -61,11 +61,11 @@
                         </div>
                         <div class="col-md-6 mt-auto p-2 bd-highlight fahmyCode">
                             <div class="social-links">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled inMobileChangeToFlex">
                                     <li class="mx-3 mb-3">
                                         <a href="javascript:void(0);" class="hover-fade-out">
                                             <!-- <i class="fab fa-linkedin icon icon-xs" style="color:#fff;"></i> -->
-                                            <img :src="'assets/images/Group 2283.svg'" width="40px" height="50px" alt="">
+                                            <img :src="'assets/images/Group 2283.svg'" class="linkedinRotate" width="40px" height="50px" alt="">
                                         </a>
                                     </li>
                                     <li class="mx-3 mb-3">
@@ -77,7 +77,7 @@
                                     <li class="mx-3 mb-3">
                                         <a href="javascript:void(0);" class="hover-fade-out">
                                             <!-- <i class="fab fa-twitter icon icon-xs" style="color:#fff;"></i> -->
-                                            <img :src="'assets/images/Group 2282.svg'" width="40px" height="50px" alt="">
+                                            <img :src="'assets/images/Group 2282.svg'" class="instagramRotate" width="40px" height="50px" alt="">
                                         </a>
                                     </li>
                                 </ul>
@@ -118,6 +118,14 @@ $(document).ready(function(){
 </script>
 
 <style scoped>
+.imageCss{
+    height:100%;
+    width:100%;
+    object-fit:none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .social-links{
     position: relative;
     right: 32px;
@@ -150,24 +158,16 @@ $(document).ready(function(){
     top:20px;
 }
 @media screen and (min-width: 1025px) and (max-width: 1340px){
-    .imageCss{
-        width:550px !important;
-    }
     #phone{
         width:264px !important;
     }
 }
 
 @media only screen and (width : 1024px){
-    .imageCss{
-        width:400px !important;
-    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:1000px) {
-    .imageCss{
-        width:300px !important;
-    }
     #phone{
         width:264px !important;
     }
@@ -177,6 +177,14 @@ $(document).ready(function(){
 }
 
 @media (max-width: 500px){
+    .linkedinRotate{
+        -ms-transform: rotate(270deg); /* IE 9 */
+        transform: rotate(270deg);
+    }
+    .instagramRotate{
+        -ms-transform: rotate(270deg); /* IE 9 */
+        transform: rotate(270deg);
+    }
     .formSubmitCss{
         padding-top:30px;
     }
