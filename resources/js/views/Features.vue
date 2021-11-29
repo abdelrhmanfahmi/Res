@@ -30,40 +30,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -90,40 +96,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -150,40 +162,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -210,40 +228,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -272,40 +296,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -332,40 +362,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -392,40 +428,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -452,40 +494,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -514,40 +562,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -574,40 +628,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -634,40 +694,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -694,40 +760,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -756,40 +828,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -816,40 +894,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -876,40 +960,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -936,40 +1026,46 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-auto">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span>Office</span>
+                                <div class="col-md-12 d-flex bd-highlight">
+                                    <div class="officeCSS mr-auto p-2 bd-highlight">
+                                        <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>Office</span>
                                     </div>
-                                    <div class="pt-2">
-                                        <span style="color:#3F6D97;font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> 4</span> &nbsp; <span style="color:#3F6D97;font-size:11px;"><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> 120 m2</span>
-                                    </div>
-                                    <div class="pt-1">
-                                        <span style="color:#20926B;font-size:12px;">$: 38%</span> &nbsp; <span style="color:#20926B;font-size:12px;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</span>
-                                    </div>
-                                    <div class="" style="padding-top:0.3rem !important;">
-                                        <span class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </span>
-                                    </div>
-                                    <div class="pt-3">
-                                        <span style="color:#3F6D97;font-size:12px;">Earning Period :</span>
+                                    <div class="londonCSS p-2 bd-highlight">
+                                        <img :src="'assets/images/Location.svg'" width="15px" alt=""> &nbsp;&nbsp;&nbsp; <span>London</span>
                                     </div>
                                 </div>
-                                <div class="col-auto inWidthMobile">
-                                    <div style="background-color:#F5F5F5;padding:5px;">
-                                        <img :src="'assets/images/Location.svg'" width="14px" alt=""> &nbsp; <span>London</span>
+                            </div>
+                            <div class="row changeHeight">
+                                <div class="col-md-12 changeHeight d-flex bd-highlight">
+                                    <div class="dataCSS pt-2 mr-auto p-2 bd-highlight">
+                                        <p style="font-size:18px;">100 $ &nbsp; <img :src="'assets/images/Group 2374.svg'" width="15px" alt=""></p>
+                                        <div class="d-flex dataCSS1">
+                                            <p style=""><img :src="'assets/images/Group 2250.svg'" width="15px" alt=""> &nbsp; 4</p>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <p style=""><img :src="'assets/images/Group 2253.svg'" width="15px" alt=""> &nbsp; 120 m2</p>
+                                        </div>
+                                        <div class="d-flex dataCSS2">
+                                            <p style="color:#20926B;">$: 38%</p> &nbsp;
+                                            &nbsp;&nbsp;
+                                           <p style="color:#20926B;"><img :src="'assets/images/Group 16303.svg'" width="14px" alt=""> 64%</p>
+                                        </div>
                                     </div>
-                                    <div class="pt-2">
+                                    <div class="dataProgress p-2 bd-highlight">
                                         <div class="progress closed"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
                                             <div class="progress-value">100%</div>
                                         </div>
                                     </div>
-                                    <div class="pt-3 d-flex justify-content-center inWidthMobileClosed">
-                                        <span class="closeRight">Closed</span>
+                                </div>
+                            </div>
+                            <div class="row changeHeight2">
+                                <div class="col-md-12 changeHeight2 d-flex bd-highlight">
+                                    <div class="dataCSS3 pt-2 mr-auto p-2 bd-highlight">
+                                        <p class="clockLeft"><i class="fas fa-clock"></i> 28d 09h 31m left </p>
+                                        <p style="color:#3F6D97;font-size:13px;">Earning Period :</p>
                                     </div>
-                                    <div class="pt-2 d-flex justify-content-center inWidthMobileClock">
-                                        <span class="clockRight"><i class="fas fa-clock"></i> 6 Months</span>
+                                    <div class="dataCSS4 p-2 bd-highlight">
+                                        <p class="closeRight">Closed</p>
+                                        <p class="clockRight"><i class="fas fa-clock"></i> 6 Months</p>
                                     </div>
                                 </div>
                             </div>
@@ -1028,6 +1124,45 @@ $(document).ready(function(){
 </script>
 
 <style scoped>
+    .changeHeight{
+        height:110px;
+    }
+    .changeHeight2{
+        height:85px;
+    }
+    .dataProgress{
+        position:relative;
+        right:-10px;
+    }
+    .dataCSS{
+        position:relative;
+        right:10px;
+    }
+    .dataCSS3{
+        position:relative;
+        right:15px;
+    }
+    .dataCSS4{
+        position:relative;
+        right:10px;
+    }
+    .dataCSS1{
+        position:relative;
+        top:-10px;
+        width:120px;
+    }
+    .dataCSS2{
+        position:relative;
+        top:-20px;
+    }
+    .officeCSS{
+        padding-right: 22px !important;
+        background-color: #F5F5F5;
+    }
+    .londonCSS{
+        background-color: #F5F5F5;
+        padding-left: 12px !important;
+    }
     .imageHeader{
         object-fit:cover;
         background-size: cover;
@@ -1069,29 +1204,30 @@ $(document).ready(function(){
         padding-left: 5px;
     }
     .clockLeft{
-        color:#3F6D97;
-        border:1px solid #3F6D97;
-        border-radius:5px;
-        font-size:10px;
-        padding:1px;
-        padding-bottom:4px;
-        padding-top:4px;
+        color: #3F6D97;
+        border: 1px solid #3F6D97;
+        border-radius: 20px;
+        font-size: 11px;
+        padding: 7px;
+        width: 113px;
     }
     .closeRight{
-        color:#3F6D97;
+        color: #3F6D97;
         border: 1px solid #3F6D97;
-        padding: 4px 4px;
-        border-radius: 10px;
+        padding: 7px;
+        border-radius: 20px;
+        text-align: center;
         font-size: 13px;
-        padding-left:10px;
-        padding-right:10px;
+        width: 90px;
     }
     .clockRight{
-        color:#3F6D97;
+        color: #3F6D97;
         border: 1px solid #3F6D97;
-        border-radius: 10px;
+        border-radius: 20px;
         font-size: 13px;
-        padding:4px;
+        padding: 7px;
+        position: relative;
+        top: -10px;
     }
     .progress {
         width: 70px;
@@ -1131,7 +1267,7 @@ $(document).ready(function(){
         width: 97%;
         height: 97%;
         background: none;
-        border-width: 4px;
+        border-width: 6px;
         border-style: solid;
         position: absolute;
         top: 0
@@ -1252,7 +1388,9 @@ $(document).ready(function(){
 
     @media only screen and (max-width: 990px) {
         .progress {
-            margin-bottom: 20px
+            margin-bottom: 20px;
+            width:83px;
+            height:80px;
         }
     }
     @media screen and (min-width: 1025px) and (max-width: 1340px){
@@ -1263,6 +1401,10 @@ $(document).ready(function(){
         .imageOverlayCarousel{
             position:relative;
             right:-160px;
+        }
+        .dataCSS4{
+            position:relative;
+            right:-10px;
         }
     }
 
@@ -1281,6 +1423,10 @@ $(document).ready(function(){
             position:relative;
             right:-100px;
         }
+        .dataCSS4{
+            position:relative;
+            right:-15px;
+        }
     }
 
     @media screen and (min-width:768px) and (max-width:1000px) {
@@ -1298,9 +1444,17 @@ $(document).ready(function(){
         .inWidthMobileClock{
             position:relative;
         }
+        .dataCSS4{
+            position:relative;
+            right:-15px;
+        }
     }
 
     @media (max-width: 500px){
+        .dataCSS4{
+            position:relative;
+            right:-15px;
+        }
         .inWidthMobile{
             position:relative;
             right:-80px;

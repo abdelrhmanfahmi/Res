@@ -128,7 +128,7 @@
             <div class="container-fluid text-center text-md-left p-4">
                 <div class="row">
                     <div class="col-md-12 text-center pb-5">
-                        <h5 class="text-white">NEED HELP GETTING STARTED?</h5>
+                        <h5 class="text-white fontsCSS">NEED HELP GETTING STARTED?</h5>
                         <br>
                         <p class="text-white">TALK TO ONE OF OUR TEAM MEMBERS AND START BUILDING YOUR PORTFOLIO</p>
                     </div>
@@ -192,7 +192,7 @@
                         <div class="row mt-auto p-2 bd-highlight">
                             <div class="col-md-12 footerForm">
                                 <form class="myFormFooter">
-                                    <input type="text" name="news" id="news" class="form-control">
+                                    <input type="text" name="news" id="news" class="form-control" placeholder="Your E-mail">
                                     <button @click="SubmitForm" id="btnSubscribe">Subscripe</button>
                                 </form>
                             </div>
@@ -242,6 +242,29 @@ $(document).ready(function(){
 </script>
 
 <style scoped>
+    #news::-webkit-input-placeholder { /* Edge */
+        position:relative;
+        right:-30px;
+        color:#e4e0e0;
+        font-family:'ap';
+    }
+
+    #news:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        position:relative;
+        right:-40px;
+        color:#e4e0e0;
+        font-family:'ap';
+    }
+
+    #news::placeholder {
+        position:relative;
+        right:-40px;
+        color:#e4e0e0;
+        font-family:'ap';
+    }
+    .fontsCSS{
+        font-size:29px;
+    }
     a:link { text-decoration: none; }
 
 
@@ -422,6 +445,10 @@ $(document).ready(function(){
 }
 
 @media (max-width: 500px){
+    .imageInIpad{
+        position:relative;
+        right:30px;
+    }
     .navbar-brand{
         margin-right:1rem;
         position:relative;
