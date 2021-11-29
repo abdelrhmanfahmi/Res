@@ -27,6 +27,9 @@ class AuthController extends Controller
             return response()->json(['error' => 'Unauthorized'], 401);
         }
 
+        $user = auth()->user();
+        $user->update(['token'=>$token]);
+
         return $this->respondWithToken($token);
     }
 
@@ -38,9 +41,11 @@ class AuthController extends Controller
 
     public function logout()
     {
-        auth()->logout();
+        $user = auth()->user();
+        $user->update(['token'=>null]);
 
-        return response()->json(['message' => 'Successfully logged out']);
+        auth()->logout();
+        return response()->json(['message' => 'Successfully logged out!'], 200);
     }
 
     public function refresh()

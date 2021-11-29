@@ -28,9 +28,7 @@ class ResetPasswordController extends Controller
 
         if ($user) {
             $user->update(['password_rest_code' => $confirm_code]);
-            // twiallo
-
-            return response()->json(['message' => 'We have sent you a password confirmation code!']);
+            return response()->json(['message' => 'We have sent you a password confirmation code! "'.$confirm_code.'"']);
         }
 
         return response()->json(['message' => 'Phone number is not exits']);
