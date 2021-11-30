@@ -142,18 +142,21 @@
                             <div class="col-auto mt-auto p-2 bd-highlight footerLinksMobile">
                                 <ul class="list-unstyled d-flex mb-0">
                                     <li class="mx-3">
-                                        <a href="javascript:void(0);" class="hover-fade-out twitterCss">
-                                            <i class="fab fa-twitter icon icon-xs text-white" style="font-size:19px;"></i>
+                                        <a href="javascript:void(0);" class="hover-fade-out">
+                                            <!-- <i class="fab fa-twitter icon icon-xs text-white" style="font-size:19px;"></i> -->
+                                            <img :src="'assets/images/Group 16852.svg'" width="50px" height="50px" alt="">
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="javascript:void(0);" class="hover-fade-out instagramCss">
-                                            <i class="fab fa-instagram icon icon-xs text-white" style="font-size:19px;"></i>
+                                        <a href="javascript:void(0);" class="hover-fade-out">
+                                            <!-- <i class="fab fa-instagram icon icon-xs text-white" style="font-size:19px;"></i> -->
+                                            <img :src="'assets/images/Group 16851.svg'" width="50px" height="50px" alt="">
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="javascript:void(0);" class="hover-fade-out linkedinCss">
-                                            <i class="fab fa-linkedin icon icon-xs text-white" style="font-size:19px;"></i>
+                                        <a href="javascript:void(0);" class="hover-fade-out">
+                                            <!-- <i class="fab fa-linkedin icon icon-xs text-white" style="font-size:19px;"></i> -->
+                                            <img :src="'assets/images/Group 16850.svg'" width="50px" height="50px" alt="">
                                         </a>
                                     </li>
                                 </ul>

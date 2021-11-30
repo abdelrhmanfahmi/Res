@@ -1214,7 +1214,7 @@ $(document).ready(function(){
     .closeRight{
         color: #3F6D97;
         border: 1px solid #3F6D97;
-        padding: 7px;
+        padding: 5px;
         border-radius: 20px;
         text-align: center;
         font-size: 13px;

@@ -389,7 +389,7 @@ $(document).ready(function(){
     }
     .changeCloseIcon{
         position:relative;
-        right:-210px;
+        right:-230px;
         top:-3px;
         cursor:pointer;
     }
@@ -411,7 +411,7 @@ $(document).ready(function(){
         top:100px;
         left: 250px;
         width: 0;
-        height: 458px;
+        height: 460px;
         margin-left: -250px;
         border-right:1px solid #eee;
         overflow-y: auto;
@@ -498,7 +498,7 @@ $(document).ready(function(){
     }
 
     #sidebar-wrapper {
-        width: 230px;
+        width: 250px;
     }
 
     #wrapper.toggled #sidebar-wrapper {
