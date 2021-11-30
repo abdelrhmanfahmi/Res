@@ -12,6 +12,7 @@ class Property extends Model
 {
     use SoftDeletes;
 
+
     protected $guarded = [];
 
     public function investors(): BelongsToMany

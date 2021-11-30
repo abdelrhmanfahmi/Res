@@ -7,11 +7,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-use Tymon\JWTAuth\Facades\JWTAuth;
 
 class ResetPasswordController extends Controller
 {
-
 
     public function forget_password(Request $request)
     {
@@ -28,7 +26,7 @@ class ResetPasswordController extends Controller
 
         if ($user) {
             $user->update(['password_rest_code' => $confirm_code]);
-            return response()->json(['message' => 'We have sent you a password confirmation code! "'.$confirm_code.'"']);
+            return response()->json(['message' => 'We have sent you a password confirmation code!', 'code' => $confirm_code]);
         }
 
         return response()->json(['message' => 'Phone number is not exits']);
@@ -58,24 +56,19 @@ class ResetPasswordController extends Controller
 
     public function reset_password(Request $request)
     {
-        User::where('phone_number', $request->phone_number)
+        $update = User::where('phone_number', $request->phone_number)
             ->update(['password' => Hash::make($request->password)]);
 
-        $credentials = request(['phone_number', 'password']);
-
-        if (!$token = JWTAuth::attempt($credentials)) {
-            return response()->json(['error' => 'Unauthorized'], 401);
+        if (!$update) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Sorry, something went wrong.'
+            ], 400);
         }
 
-        return $this->respondWithToken($token);
-    }
-
-    protected function respondWithToken($token)
-    {
         return response()->json([
-            'access_token' => $token,
-            'token_type' => 'bearer',
-            'expires_in' => auth()->factory()->getTTL() * 60
+            'success' => true,
+            'message' => 'Success, Your password has been changed.'
         ]);
     }
 

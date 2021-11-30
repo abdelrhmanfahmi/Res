@@ -15,18 +15,14 @@ class CreatePropertiesTable extends Migration
     {
         Schema::create('properties', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('property_number');
             $table->string('property_name');
+            $table->integer('property_number');
             $table->text('description');
             $table->string('street_name');
             $table->string('street_NO');
             $table->bigInteger('num_of_rooms');
             $table->integer('postcode');
-            $table->integer('status');
-            $table->double('cost')->nullable();
             $table->text('location');
-            $table->date('published_date');
-
             $table->integer('room_type');
             $table->integer('property_type');
             $table->double('share_price');
@@ -35,7 +31,10 @@ class CreatePropertiesTable extends Migration
             $table->text('benefits');
             $table->double('monthly_rent');
             $table->double('yearly_rent');
-            $table->string('market_study');
+            $table->integer('status')->default(0);
+            $table->double('cost')->nullable();
+            $table->date('published_date')->nullable();
+            $table->string('market_study')->nullable();
 
 
             $table->softDeletes();

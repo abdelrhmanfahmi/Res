@@ -28,7 +28,7 @@ class AuthController extends Controller
         }
 
         $user = auth()->user();
-        $user->update(['token'=>$token]);
+        $user->update(['token' => $token]);
 
         return $this->respondWithToken($token);
     }
@@ -42,7 +42,7 @@ class AuthController extends Controller
     public function logout()
     {
         $user = auth()->user();
-        $user->update(['token'=>null]);
+        $user->update(['token' => null]);
 
         auth()->logout();
         return response()->json(['message' => 'Successfully logged out!'], 200);
