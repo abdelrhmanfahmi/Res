@@ -14,7 +14,7 @@
                             <div class="card-body">
                                 <span style="font-size:14px;">My total investment</span>
                                 <div class="pt-2">
-                                    <img :src="'assets/images/Icon awesome-coins.svg'" width="15px" alt=""> &nbsp; 20,000 <span style="color:#20926B;">SAR</span>
+                                    <img :src="'assets/images/Icon awesome-coins.svg'" width="15px" alt=""> &nbsp; <span style="font-family:abo;">20,000</span> <span style="color:#20926B;">SAR</span>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@
                             <div class="card-body">
                                 <span style="font-size:14px;">Total annual income</span>
                                 <div class="pt-2">
-                                    <img :src="'assets/images/Icon awesome-coins.svg'" width="15px" alt=""> &nbsp; 1800 <span style="color:#20926B;">SAR</span>
+                                    <img :src="'assets/images/Icon awesome-coins.svg'" width="15px" alt=""> &nbsp; <span style="font-family:abo;">1800</span> <span style="color:#20926B;">SAR</span>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="card-body">
                                 <span style="font-size:14px;">Expected net profit</span>
                                 <div class="pt-2">
-                                    <img :src="'assets/images/Icon awesome-coins.svg'" width="15px" alt=""> &nbsp; 34,400 <span style="color:#20926B;">SAR</span>
+                                    <img :src="'assets/images/Icon awesome-coins.svg'" width="15px" alt=""> &nbsp; <span style="font-family:abo;">34,400</span> <span style="color:#20926B;">SAR</span>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <span style="font-size:14px;">number of properties</span>
                                 <div class="pt-2">
-                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; 02 <span style="color:#20926B;">Property</span>
+                                    <img :src="'assets/images/Home.svg'" width="15px" alt=""> &nbsp; <span style="font-family:abo;">02</span> <span style="color:#20926B;">Property</span>
                                 </div>
                             </div>
                         </div>
