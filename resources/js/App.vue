@@ -425,7 +425,7 @@ $(document).ready(function(){
     .designNow2{
         position:relative;
         top:10px;
-        right:120px;
+        right:300px;
     }
     .navbar-nav > li{
         padding-left:5px;
