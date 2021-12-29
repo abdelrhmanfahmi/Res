@@ -18,7 +18,8 @@
                                 <div class="input-group-prepend">
                                     <vue-country-code
                                         @onSelect="onSelect"
-                                        :preferredCountries="['sa', 'us', 'gb']">
+                                        :preferredCountries="['sa', 'us', 'gb']"
+                                        :enabledCountryCode="true">
                                     </vue-country-code>
                                     <input type="tel" class="form-control" id="phone" placeholder="xxxxxxxxxxxxx" style="width:300px;">
                                 </div>
@@ -121,10 +122,10 @@ $(document).ready(function(){
 .imageCss{
     height:100%;
     width:100%;
-    object-fit:none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit:none;
 }
 .social-links{
     position: relative;

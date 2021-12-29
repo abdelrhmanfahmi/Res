@@ -16,7 +16,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto designNow">
                     <li class="nav-item">
                         <router-link :to="'/'" class="nav-item" exact>
                             <a class="nav-link" href="javascript:void(0);">Homepage</a>
@@ -70,55 +70,60 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">|</a>
+                        <div class="vl"></div>
                     </li>
-                    <li class="nav-item">
-                        <router-link :to="'/favourite'" class="nav-item filledForHeart2" exact>
-                            <a class="nav-link filledForHeart" href="javascript:void(0);">
-                                <i class="fa fa-heart rounded-circle filled" style="border:1px solid #eee;padding:10px;"></i>
-                            </a>
-                        </router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link :to="'/notifications'" class="nav-item" exact>
-                            <a class="nav-link" href="javascript:void(0);">
-                                <i class="fa fa-bell rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
-                            </a>
-                        </router-link>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown33" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Ahmed Mezied</span> &nbsp; <img :src="'assets/images/avatar-8.jpg'" width="30px" height="30px" alt="" class="rounded-circle">
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown33">
-                            <router-link :to="'/profile'">
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <img :src="'assets/images/Profile.svg'" width="15px" alt=""> &nbsp; <span>My Profile</span>
-                                </a>
-                            </router-link>
-                            <router-link :to="'/favourite'">
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <img :src="'assets/images/Heart1.svg'" width="15px" alt=""> &nbsp; <span>Favourite</span>
-                                </a>
-                            </router-link>
-                            <router-link :to="'/support'">
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <img :src="'assets/images/Chat.svg'" width="15px" alt=""> &nbsp; <span>Support</span>
-                                </a>
-                            </router-link>
-                            <router-link :to="'/setting'">
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <img :src="'assets/images/Setting.svg'" width="15px" alt=""> &nbsp; <span>Settings</span>
-                                </a>
-                            </router-link>
-                            <router-link :to="'/'">
-                                <a class="dropdown-item" href="javascript:void(0);">
-                                    <img :src="'assets/images/Logout.svg'" width="15px" alt=""> &nbsp; <span>Sign Out</span>
-                                </a>
-                            </router-link>
-                        </div>
-                    </li>
+                    
                 </ul>
+                <div class="form-inline my-2 my-lg-0 fahmyCode designNow2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <router-link :to="'/favourite'" class="nav-item filledForHeart2" exact>
+                                <a class="nav-link filledForHeart" href="javascript:void(0);">
+                                    <i class="fa fa-heart rounded-circle filled" style="border:1px solid #eee;padding:10px;"></i>
+                                </a>
+                            </router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link :to="'/notifications'" class="nav-item" exact>
+                                <a class="nav-link" href="javascript:void(0);">
+                                    <i class="fa fa-bell rounded-circle" style="border:1px solid #eee;padding:10px;"></i>
+                                </a>
+                            </router-link>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown33" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>Ahmed Mezied</span> &nbsp; <img :src="'assets/images/avatar-8.jpg'" width="30px" height="30px" alt="" class="rounded-circle">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown33">
+                                <router-link :to="'/profile'">
+                                    <a class="dropdown-item" href="javascript:void(0);">
+                                        <img :src="'assets/images/Profile.svg'" width="15px" alt=""> &nbsp; <span>My Profile</span>
+                                    </a>
+                                </router-link>
+                                <router-link :to="'/favourite'">
+                                    <a class="dropdown-item" href="javascript:void(0);">
+                                        <img :src="'assets/images/Heart1.svg'" width="15px" alt=""> &nbsp; <span>Favourite</span>
+                                    </a>
+                                </router-link>
+                                <router-link :to="'/support'">
+                                    <a class="dropdown-item" href="javascript:void(0);">
+                                        <img :src="'assets/images/Chat.svg'" width="15px" alt=""> &nbsp; <span>Support</span>
+                                    </a>
+                                </router-link>
+                                <router-link :to="'/setting'">
+                                    <a class="dropdown-item" href="javascript:void(0);">
+                                        <img :src="'assets/images/Setting.svg'" width="15px" alt=""> &nbsp; <span>Settings</span>
+                                    </a>
+                                </router-link>
+                                <router-link :to="'/'">
+                                    <a class="dropdown-item" href="javascript:void(0);">
+                                        <img :src="'assets/images/Logout.svg'" width="15px" alt=""> &nbsp; <span>Sign Out</span>
+                                    </a>
+                                </router-link>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -240,11 +245,44 @@ export default {
 }
 
 $(document).ready(function(){
-    
+    $(document).ready(function(){
+        if($(window).width() <= 500){
+            $('.fahmyCode').removeClass('designNow2');
+        }else if($(window).width() == 768){
+            $('.fahmyCode').removeClass('designNow2');
+        }else{
+            $('.fahmyCode').addClass('designNow2');
+        }
+    });
+    $(window).on('resize' , function(){
+        if($(window).width() <= 500){
+            $('.fahmyCode').removeClass('designNow2');
+        }else if($(window).width() == 768){
+            $('.fahmyCode').removeClass('designNow2');
+        }else{
+            $('.fahmyCode').addClass('designNow2');
+        }
+    });
 });
 </script>
 
 <style scoped>
+    .designNow2{
+        position:relative;
+        top:10px;
+        right:300px;
+    }
+    .vl{
+        border-left: 2px solid #000;
+        height: 30px;
+        position: relative;
+        top:5px;
+        right:-30px;
+    }
+    .designNow{
+        position:relative;
+        top:10px;
+    }
     #news::-webkit-input-placeholder { /* Edge */
         position:relative;
         right:-30px;
@@ -384,6 +422,11 @@ $(document).ready(function(){
         right:-100px;
     }
 @media screen and (min-width: 1025px) and (max-width: 1340px){
+    .designNow2{
+        position:relative;
+        top:10px;
+        right:120px;
+    }
     .navbar-nav > li{
         padding-left:5px;
         padding-right:5px;
@@ -402,6 +445,11 @@ $(document).ready(function(){
 }
 
 @media only screen and (width : 1024px){
+    .designNow2{
+        position:relative;
+        top:10px;
+        right:10px;
+    }
     .navbar-nav > li{
         padding-left:5px;
         padding-right:5px;
@@ -445,9 +493,15 @@ $(document).ready(function(){
         position:relative;
         right:40px;
     }
+    .vl{
+        display:none;
+    }
 }
 
 @media (max-width: 500px){
+    .vl{
+        display:none;
+    }
     .imageInIpad{
         position:relative;
         right:30px;
