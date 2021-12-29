@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3>Real estate investing is your way to make money</h3>
+                        <h3>Fahmy</h3>
                         <br>
                         <p style="line-height:3">
                             The first Saudi company to allow you to open an investment portfolio
