@@ -74,7 +74,7 @@
                     </li>
                     
                 </ul>
-                <div class="form-inline my-2 my-lg-0 fahmyCode designNow2">
+                <div class="form-inline my-2 my-lg-0 fahmyCode designNow3">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <router-link :to="'/favourite'" class="nav-item filledForHeart2" exact>
@@ -247,30 +247,30 @@ export default {
 $(document).ready(function(){
     $(document).ready(function(){
         if($(window).width() <= 500){
-            $('.fahmyCode').removeClass('designNow2');
+            $('.fahmyCode').removeClass('designNow3');
         }else if($(window).width() == 768){
-            $('.fahmyCode').removeClass('designNow2');
+            $('.fahmyCode').removeClass('designNow3');120
         }else{
-            $('.fahmyCode').addClass('designNow2');
+            $('.fahmyCode').addClass('designNow3');
         }
     });
     $(window).on('resize' , function(){
         if($(window).width() <= 500){
-            $('.fahmyCode').removeClass('designNow2');
+            $('.fahmyCode').removeClass('designNow3');
         }else if($(window).width() == 768){
-            $('.fahmyCode').removeClass('designNow2');
+            $('.fahmyCode').removeClass('designNow3');
         }else{
-            $('.fahmyCode').addClass('designNow2');
+            $('.fahmyCode').addClass('designNow3');
         }
     });
 });
 </script>
 
 <style scoped>
-    .designNow2{
+    .designNow3{
         position:relative;
         top:10px;
-        right:120px;
+        right:300px;
     }
     .vl{
         border-left: 2px solid #000;
@@ -421,11 +421,11 @@ $(document).ready(function(){
         position:relative;
         right:-100px;
     }
-@media screen and (min-width: 1025px) and (max-width: 1340px){
-    .designNow2{
+@media screen and (min-width: 1025px) and (max-width: 1600px){
+    .designNow3{
         position:relative;
         top:10px;
-        right:300px;
+        right:120px;
     }
     .navbar-nav > li{
         padding-left:5px;
@@ -445,7 +445,7 @@ $(document).ready(function(){
 }
 
 @media only screen and (width : 1024px){
-    .designNow2{
+    .designNow3{
         position:relative;
         top:10px;
         right:10px;
